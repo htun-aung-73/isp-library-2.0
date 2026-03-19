@@ -31,7 +31,8 @@ const formSchema = z.object({
 export default function SignUpPage() {
   const [error, setError] = useState<string | null>(null)
   const router = useRouter()
-  const [signUp, { isLoading }] = useSignUpMutation()
+  const [signUp] = useSignUpMutation()
+  const [isLoading, setIsLoading] = useState(false)
 
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
@@ -44,16 +45,17 @@ export default function SignUpPage() {
   })
 
   const onSubmit = async (values: z.infer<typeof formSchema>) => {
+    setIsLoading(true)
     setError(null)
-
     const { email, password, username, confirmPassword } = values
 
     if (password !== confirmPassword) {
       setError("Passwords do not match")
       return
     }
-    const hashedPassword = await bcrypt.hash(password, 15);
+
     try {
+      const hashedPassword = await bcrypt.hash(password, 15);
       await signUp({ email, hashedPassword, username }).unwrap()
 
       router.push("/auth/sign-up-success")
@@ -61,6 +63,8 @@ export default function SignUpPage() {
     } catch (err: any) {
       const errorMessage = err.data.error || "An error occurred"
       setError(errorMessage)
+    } finally {
+      setIsLoading(false)
     }
   }
 

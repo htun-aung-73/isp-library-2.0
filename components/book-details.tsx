@@ -7,8 +7,6 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { BookOpen, Calendar, User, ArrowLeft, CheckCircle, AlertCircle, Ban, Globe, MapPinCheckInside, BookIcon } from "lucide-react"
-import { useAppSelector } from "@/lib/redux/hooks"
-import { selectIsAuthenticated } from "@/lib/redux/slices/authSlice"
 import { useBorrowBookMutation } from "@/lib/redux/services/libraryApi"
 import { Book, BorrowedBook, SessionUser } from "@/lib/db/types"
 import { toast } from "sonner"
@@ -24,8 +22,6 @@ export function BookDetails({
 
   const router = useRouter()
 
-  const isAuthenticated = useAppSelector(selectIsAuthenticated)
-
   const [borrowBook, { isLoading: isBorrowing }] = useBorrowBookMutation()
 
   const maxBorrowsPerPeriod = +process.env.MAX_BORROWS_PER_PERIOD! || 2
@@ -39,12 +35,7 @@ export function BookDetails({
   const hasReachedBorrowLimit = currentBorrowedByUser >= maxBorrowsPerPeriod
 
   const handleBorrow = async () => {
-    if (!isAuthenticated || !user) {
-      router.push("/auth/login")
-      return
-    }
-
-    if (user.isAdmin) {
+    if (user?.isAdmin) {
       setMessage({
         type: "error",
         text: "Administrators cannot borrow books.",
@@ -210,30 +201,28 @@ export function BookDetails({
             }
           </div>
 
-          {isAuthenticated && (
-            <Card className="border-border">
-              <CardContent className="p-4">
-                <h2 className="font-semibold mb-2 text-foreground">Your Borrowing Status</h2>
-                <p className="text-sm text-muted-foreground">
-                  Books borrowed:{" "}
-                  <span className="font-medium text-foreground">{currentBorrowedByUser}</span> / {maxBorrowsPerPeriod}
+          <Card className="border-border">
+            <CardContent className="p-4">
+              <h2 className="font-semibold mb-2 text-foreground">Your Borrowing Status</h2>
+              <p className="text-sm text-muted-foreground">
+                Books borrowed:{" "}
+                <span className="font-medium text-foreground">{currentBorrowedByUser}</span> / {maxBorrowsPerPeriod}
+              </p>
+              <div className="w-48 h-2 bg-primary/20 rounded-full mt-2">
+                <div
+                  className={`h-2 rounded-full transition-all overflow-clip ${hasReachedBorrowLimit ? "bg-destructive" : "bg-primary"}`}
+                  style={{
+                    width: `${(currentBorrowedByUser >= 2 ? 2 : currentBorrowedByUser) / maxBorrowsPerPeriod * 100}%`,
+                  }}
+                />
+              </div>
+              {hasReachedBorrowLimit && (
+                <p className="text-xs text-destructive mt-2">
+                  You can only borrow {maxBorrowsPerPeriod} books per period.
                 </p>
-                <div className="w-48 h-2 bg-primary/20 rounded-full mt-2">
-                  <div
-                    className={`h-2 rounded-full transition-all overflow-clip ${hasReachedBorrowLimit ? "bg-destructive" : "bg-primary"}`}
-                    style={{
-                      width: `${(currentBorrowedByUser >= 2 ? 2 : currentBorrowedByUser) / maxBorrowsPerPeriod * 100}%`,
-                    }}
-                  />
-                </div>
-                {hasReachedBorrowLimit && (
-                  <p className="text-xs text-destructive mt-2">
-                    You can only borrow {maxBorrowsPerPeriod} books per period.
-                  </p>
-                )}
-              </CardContent>
-            </Card>
-          )}
+              )}
+            </CardContent>
+          </Card>
 
           <Card className="border-border">
             <CardContent className="p-4">
@@ -274,6 +263,7 @@ export function BookDetails({
               )}
             </CardContent>
           </Card>
+
           <Card className="border-border">
             <CardContent className="p-4">
               <h2 className="font-semibold mb-2 text-foreground">Description</h2>
