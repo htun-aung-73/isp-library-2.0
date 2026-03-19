@@ -1,0 +1,989 @@
+author_id,name
+A0001,ကျော်ဝင်း၊ ဒေါက်တာ၊ သမိုင်းပါမောက္ခ(ငြိမ်း)
+A0002,နေစိုးထက်
+A0003,စောထွန်း၊ ပါမောက္ခ/အောင်မြင့်ဦး၊‌ ဒေါက်တာ
+A0004,သာရ၊ မောင်
+A0005,ကလောင်စုံ
+A0006,ဟန်ဆန်း
+A0007,ရာဇာ၊ ကို
+A0008,ထွန်းဝေမြင့်
+A0009,သန်းဝင်းလှိုင်
+A0010,ခင်ဌေးကြူ
+A0011,အောင်သူရ
+A0012,အေးဖြူ
+A0013,မှူးဇော်
+A0014,တင်နိုင်တိုး
+A0015,ဒိဗ္ဗကလေး
+A0016,ဝင်းဖေ
+A0017,ဝင်းတင့်ထွန်း
+A0018,တကောင်းနိုင်ငံရေးလေ့လာမှုအဖွဲ့
+A0019,နေမင်း (သရက်)
+A0020,ရွှေဥသြ
+A0021,အမာ၊ ဒေါ်၊ လူထု
+A0022,ဆလိုင်းလျန်မှုန်း၊ ဒေါက်တာ
+A0023,ပြည်သူ့ဘက်တော်သား
+A0024,အုန်းမောင်၊ ဦး၊ ရန်ကင်း၊ တရားလွှတ်တော်ရှေ့နေ
+A0025,ကြော့ဦး၊ မောင်
+A0026,ခင်ဝင်းမြင့်၊ ဥပဒေသုတေသီ
+A0027,ဥပဒေသုတေသီ
+A0028,တင်အောင်၊ ဗန်းမော်
+A0029,မြန်မာနိုင်ငံရင်းနှီးမြုပ်နှံမှုကော်မရှင်
+A0030,ကိုတာ
+A0031,သီရိဥဇနာ၊ ဝန်ကြီး၊ အင်ရုံရွာစား
+A0032,ဇေယျာလင်း
+A0033,ကျော်၊ ဦး၊ (အောင်မြတ်ကျော်)
+A0034,စတူးဝယ်လ်၊ ဂျိုး
+A0035,တင်မောင်မြင့်
+A0036,အောင်စွမ်း
+A0037,သိန်းဖေမြင့်
+A0038,အတ္တကျော်
+A0039,တူဂျ၊ ဒေါက်တာ
+A0040,သုခမိန်လှိုင်
+A0041,အောင်ပွင့်၊ မောင်
+A0042,ရှိန်ဝါ
+A0043,မြင့်ဇော်၊ ဒေါက်တာ
+A0044,ဒေါ်ရသီ နှင့် သောမက်စ် ဟိုဘလာ
+A0045,အမျိုးသားယဥ်ကျေးမှုနှင့် အနုပညာတက္ကသိုလ် (ရန်ကုန်)
+A0046,ဓနုဖြူသန်းဆွေသစ်
+A0047,မြသန်းတင့်
+A0048,ကျော်ဝင်း
+A0049,ခွန်လှိုင်း (မြန်မာပြန်)
+A0050,နိုင်ငွေသိမ်း
+A0051,နန်းညွှန်ဆွေ၊ ကြည်ဦး
+A0052,လွမ်းဏီ၊ မောင်
+A0053,ကလျာအိအိလွင်
+A0054,စပန်နာ၊ စတတ်ဖန်နီ
+A0055,ပြည်ထောင်စုမြန်မာနိုင်ငံတော် နိုင်ငံတော်အေးချမ်းသာယာ‌ရေးနှင့် ဖွံ့ဖြိုးရေးကောင်စီ
+A0056,ပြည်ထောင်စုသမ္မတမြန်မာနိုင်ငံတော်
+A0057,ပင်လုံလက်စွဲပြုစုရေးအဖွဲ့
+A0058,ဟိန်းလတ်
+A0059,ဝင်းမြင့်၊ စိုင်း
+A0060,နေသူရိန်ဟန်
+A0061,မြန်မာ့ဆိုရှယ်လစ်လမ်းစဥ်ပါတီ
+A0062,ယုံလေး (ဗိုလ်ကြီးဝင်းကို- ငြိမ်း)
+A0063,ဆမ်မြူရယ်မိုး
+A0064,ရဲထွဋ်
+A0065,ဘနားနား ယိုရှိမိုတို
+A0066,နေရီရီစာတည်းအဖွဲ့
+A0067,ဇော်မင်း၊ အောင်သူငြိမ်း
+A0068,စွန်ရဲ
+A0069,တက်တိုး
+A0070,ညီလင်းနိုင်
+A0071,မင်းချစ်နိုင်
+A0072,ဥက္ကာ၊ ခွန်၊ ဗိုလ်မှူးကြီး
+A0073,မြန်မာနိုင်ငံငြိမ်းချမ်းရေးပြန်လည်ထူထောင်ရေးလုပ်ငန်းဗဟိုဌာန
+A0074,ဇေယျသူ
+A0075,တက္ကသိုလ်မလေးခိုင်
+A0076,နိုင်ဝင်းဆွေ
+A0077,တင်မောင်သန်း
+A0078,အမျိုးသားဒီမိုကရေစီကွန်ရက်- NDN ဥပဒေရေးရာအတိုင်ပင်ခံဌာန
+A0079,တင်ဝင်း၊ ဦး၊ ညွှန်မှူး(ငြိမ်း)
+A0080,သတင်းနှင့် စာနယ်ဇင်းလုပ်ငန်း
+A0081,ထွန်းဇော်ဌေး
+A0082,နရီမင်း
+A0083,သန်းစိုး (ဘောဂဗေဒ)
+A0084,ဆန္ဒာဓိက၊ အရှင်၊ ရွှေပါရမီတောရ
+A0085,ဘိုးသိမ်း
+A0086,နေဘုန်းလတ်
+A0087,မြန်မာစာအဖွဲ့ဦးစီးဌာန
+A0088,မင်းကျော်
+A0089,မိုဃ်းဇော်
+A0090,ကျော်ဇောခိုင်
+A0091,နေမျိုး
+A0092,အောင်ခင်မြင့်
+A0093,မြန်မာလူထုမဟာမိတ်
+A0094,ကျော်ဇေယျ၊ ဦး
+A0095,စိန်လွင်လေး၊ ဦး၊ ကထိက၊ ဝိဇ္ဖာ( ဂုဏ်ထူး)၊ ဒီဂျေ
+A0096,ရွေးကောက်ပွဲဆိုင်ရာ ပြည်သူ့လှုပ်ရှားမှုအဖွဲ့
+A0097,Ninu (Women in Action Group)
+A0098,ဘတ်ဝဲလ်၊ ရစ်ချက်
+A0099,အုန်းဖေ၊ ဦး၊ (ရှမ်းပြည်နယ်ဦးစီးအဖွဲ့ဝင်‌ဟောင်း)
+A0100,သန်းစိုးနိုင် - မြန်မာပြန်
+A0101,အာရင်ဘတ်၊ အီလျာ
+A0102,ကာကွယ်ရေးဝန်ကြီးဌာန
+A0103,သက်ဆွေ ( တပ်မတော်- ရေ)
+A0104,"အေးချမ်း၊ ဒေါက်တာ, ‌ရွှေဇံ၊ ဦး"
+A0105,မြတ်သူ၊ တက္ကသိုလ်
+A0106,မြဟန်၊ ဦး နှင့် အခြား...
+A0107,မင်းရဲကောင်းပုံ
+A0108,နိုင်ငံသမိုင်းသုတေသနဦးစီးဌာန
+A0109,မင်းသိမ်း၊ ဒေါက်တာ
+A0110,ရွှေဥဒေါင်း
+A0111,ရန်ကုန်ဘဆွေ
+A0112,လှ၊ ဦး၊ လူထု
+A0113,တက်တိုး၊ နုယဥ်
+A0114,သာနိုး၊ မောင်
+A0115,တိုက်စိုး
+A0116,မင်းမျိုးနိုင်
+A0117,အောင်စိုး၊ ဗဂျီ
+A0118,ဒဂုန်တာရာ
+A0119,သန်းနိုင်၊ ကတူး
+A0120,စိန်တင်၊ တက္ကသိုလ်
+A0121,သော်ကောင်း၊ ဦး
+A0122,မောင်ခင်မင်(ဓနုဖြူ)
+A0123,မင်းခေါင်ဦး
+A0124,ကျော်စိန်၊ ဒေါက်တာ
+A0125,လှဝင်း၊ ဦး၊ (လေသူရဲတစ်ဦး)
+A0126,ဂျိုဇော်
+A0127,နတ်နွယ်
+A0128,ကြည်စိုးသောင်း
+A0129,သန်းမြင့်အောင်
+A0130,ဘခက်၊ ရဲဘော်
+A0131,ခင်‌မောင်သန်း (စိတ်ပညာ)
+A0132,သမိုင်းသုတေသနနှင့် အမျိုးသားစာကြည့်တိုက်ဦးစီးဌာန
+A0133,သိပ္ပံမောင်ဝ
+A0134,သော်တာဆွေ- မြန်မာပြန်
+A0135,ဘသန်း၊ဓမ္မက၊
+A0137,ကျော်အောင်
+A0138,သစ်လွင်၊မောင်၊(လူထု)
+A0139,ပညာသာရ၊ အရှင်
+A0140,သော်က၊ မောင်
+A0141,နိုင်ထိုက်
+A0142,အေးဝင်း(လမင်းတရာ)
+A0143,ခိုင်လတ်၊ မောင်
+A0144,ဝင်းတင်၊ ဦး၊ ဟံသာဝတီ
+A0145,မောင်မောင်သန်း
+A0146,သင်္ခါ
+A0147,ဘသောင်း၊ သခင်
+A0148,ပတ္တမြားခင်
+A0149,ဝင်းဇော်လတ်
+A0150,နောင်ကျော်
+A0151,မောင်မောင်လင်း(သံအမတ်ကြီး)
+A0152,ဘစီ
+A0153,ခြိမ့်၊ ဦး
+A0154,စိန်၊ ဦး၊ ကယား
+A0155,လှကွန့် (စုစည်းတင်ပြသူ)
+A0156,ယဥ်လှိုင်း၊ မောင်၊ (ပျဥ်းမမြိုင်)
+A0157,ကြည်သန့်၊ မောင် - မြန်မာပြန်
+A0158,ခင်ညို၊ ရဲဘော်
+A0159,မြတ်သစ်- မြန်မာပြန်
+A0160,စိန်ဝင်း၊ လူထု - မြန်မာပြန်
+A0161,မောင်မောင်ယေး
+A0162,အွန်လိုင်းဝဏ္ဏ
+A0163,ဗိုလ်တာရာ(ရဲဘော်သုံးကျိပ်)
+A0164,လင်းရောင်နီ(စဘေ)
+A0165,တက္ကသိုလ်နန္ဒမိတ်
+A0166,မြသန်း၊ သခင်
+A0167,စန်းငွေ၊ ဦး၊ ဒဂုန်
+A0168,နိုင်ဇော်
+A0169,လှကြည်ရာဇတ်
+A0170,နု၊ ဦး
+A0171,ဖိုးရာဇာ( မအူပင်)
+A0172,တော်ဘုရားကလေး(အောင်ဇေ)
+A0173,အောင်နိုင်ဦး(မန္တလေး)
+A0174,ချစ်ဝင်းညွန့်- ဘာသာပြန်
+A0175,မောင်ထင်၊ မိုးဧအောင်
+A0176,ဘခိုင်၊ ဦး
+A0177,တိုးလှ
+A0178,သိန်းသန်းဦး၊ ဦး၊ (မြန်မာနိုင်ငံရှေ့နေများကွန်ရက်)
+A0179,သိန်းနိုင်၊ မောင်၊ (ဂုဏ်ထူးဦးသိန်းနိုင်)
+A0180,ခင်ကြည်ကြည်၊ ဒေါ်
+A0181,မြင့်ကြိုင် ( အောင်မိုးဆောင်)
+A0182,ခေတ်ထွန်း၊ မောင်
+A0183,ကိုဦး၊ စော
+A0184,မဟာမုနိဘုရားကြီးဂေါပကအဖွဲ့
+A0185,ဒဗယ်လျှူအယ်လ်အို(WLO)
+A0186,တက္ကသိုလ်များသမိုင်းသုတေသနဦးစီးဌာန
+A0187,ကျော်ခိုင်ခန့်
+A0188,ဇော်ဂျီ
+A0189,မောင်မောင်၊ ဦး၊ ဓမ္မ‌ဃောသက
+A0190,ဇေယျ
+A0191,တိုင်းရင်းသားစည်းလုံးညီညွှတ်ရေးပါတီ
+A0192,စိန်ဝင်း၊ လူထု
+A0193,ဗိုကေ၊ ဦး၊ (ပုဂံရှေးဟောင်းသုတေသီ)
+A0194,စောလူ
+A0195,မြသိန်းဟန်၊ ‌‌ဒေါက်တာ၊ ပါမောက္ခ
+A0196,မြ၊ ရဲဘော်
+A0197,ဆူးငှက်
+A0198,စံအိုက်၊ စိုင်း၊ ‌ဒေါက်တာ
+A0199,မောင်မောင်၊ ဒေါက်တာ
+A0200,မစ်ကီဟာတ်
+A0201,ကျော်သက်၊ ဒေါက်တာ
+A0202,ကျော်ရင်မြင့်
+A0203,သန်းထွန်း၊ ဦး၊ ‌ဒေါက်တာ၊ (ရွှေဘို)
+A0204,ရွှေအောင်၊ ဦး
+A0205,သန်းထွန်း၊ မြန်မာသမိုင်းအဖွဲ့ဝင်
+A0206,ဝင်းတင်( ဘာသာပြန်)
+A0207,မောင်မိုးသူ
+A0208,သော်တာဆွေ
+A0209,တိုးလှ၊ ‌ဒေါက်တာ နှင့် အခြား...
+A0210,သန်းထွန်း- မြန်မာပြန်
+A0211,သန်းထွန်း၊ ဒေါက်တာ -မြန်မာပြန်
+A0212,ထွန်းမှတ်ဝင်း၊ စဝ်
+A0213,လှသမိန်
+A0214,တင်မောင်ဝင်း
+A0215,ကျော်ဇော၊ ဗိုလ်မှူးချုပ်‌ဟောင်း
+A0216,စန်းစန်း၊ ‌ဒေါက်တာ
+A0217,မာန်လုလင်
+A0218,ဝင်းတင်
+A0219,ချမ်းသာ၊ ဦး
+A0220,သန်းထွန်း
+A0221,ပြေ၊ ဆေး-၂ - ဘာသာပြန်
+A0222,ဝေသာ - ဘာသာပြန်
+A0223,လှကွန်း၊ သခင်
+A0224,သန်းထွန်း၊ ဒေါက်တာ- ဘာသာပြန်
+A0225,ပီမိုးနငိး
+A0226,အောင်ခင်၊ ဒေါက်တာ
+A0227,ဘရင်၊ ဦး၊ ဟံသာဝတီ
+A0228,ဘရှင်၊ ဗိုလ်မှူး
+A0229,ဖိုးအောင်လေး
+A0230,မောင်ထင်
+A0231,လှမောင်၊ ဂျီ
+A0232,အောင်မြင့်ဦး(လူထု)
+A0233,ရီရီဝင်း
+A0234,ပီမိုးနင်း
+A0235,မောင်မောင်တင်၊ ဦး၊ (မဟာဝိဇ္ဖာ)
+A0236,များအောင် - စုဆောင်းတင်ပြသူ
+A0237,စန်းစန်းမြင့်၊ ဒေါက်တာ၊ ပါမောက္ခ
+A0238,မန်းတင်
+A0239,ပါရဂူ
+A0240,တက်တိုး- ပြုစုသူ
+A0241,အထက်ဗမာနိုင်ငံစာရေးဆရာအသင်း
+A0242,ခင်လဝင်း
+A0244,မောင်သာရ
+A0245,ညိုထွန်းလူ
+A0246,အောင်အောင်တိတ်
+A0247,ကိုငြိမ်း(မန္တလေး)
+A0248,မောင်သစ်ဆင်း
+A0249,ရွှေကိုင်းသား
+A0250,ရွှေအောင်၊ ကို
+A0251,မကြန်
+A0252,အောင်ကြီး၊ ဒေါက်တာ
+A0253,အောင်ကြိုင်၊ မင်းဘူး
+A0254,ကျော်ငြိမ်း၊ ဦး
+A0255,သန်းဆွေ၊ မောင်၊ (ထားဝယ်)
+A0256,ရွှေကိုင်းသားနှင့် အခြား...
+A0257,တိုးလှ၊ ‌ဒေါက်တာ
+A0258,မောင်ဆုရှင်
+A0259,တော်ကောင်းမင်း- ဘာသာပြန်
+A0260,နီတွတ်
+A0261,နန္ဒမာလာဘိဝံသ၊ ဥုး( ပါမောက္ခချုပ်ဆရာတော်)
+A0262,နန္ဒမာလာဘိဝံသ၊ အရှင်၊ ဒေါက်တာ၊ ပါမောက္ခချုပ်ဆရာတော်
+A0263,နန္ဒမာလာဘိဝံသ၊ ဘဒ္ဒန္တ၊ ဒေါက်တာ၊ ပါမောက္ခချုပ်ဆရာတော်
+A0264,တက္ကသိုလ်ဝင်းမွန်
+A0265,ခင်မောင်ကြီး၊ ဦး၊ ရန်ကုန်တက္ကသိုလ်
+A0266,သက်ထွန်း၊ ဦး၊ အငြိမ်းစားသံအမတ်ကြီး
+A0267,ဖေမောင်တင်၊ ဦး၊ ပါမောက္ခ၊ ရန်ကုန်တက္ကသိုလ်ကျောင်းအုပ်ကြီး
+A0268,တင်မြ၊ သခင်
+A0269,အောင်မိုးဆောင်းနှင့်အခြား...
+A0270,မခင်နု (ဒဿန)
+A0271,သိမ်းမောင်၊ ဦး
+A0272,သန်းလှိုင်၊ ဦး
+A0273,ရီရီ၊ ဒေါက်တာ
+A0274,သန်းဆွေ၊ ဦး
+A0275,ကျော်ဝင်း၊ ဒေါက်တာ
+A0276,စိန်မျိုးမြင့်
+A0277,မြင့်သိန်း၊ ဒေါက်တာ
+A0278,သန်းထွန်း၊‌ ဒေါက်တာ
+A0279,ကြယ်နီ
+A0280,အုန်းဖေ၊ ဦး
+A0281,မန်းတင်- မြန်မာပြန်
+A0282,ငွေစိုး
+A0283,မောင်ဒေး
+A0284,တင်မိုး
+A0285,မျိုးတေဇာမောင်
+A0286,မင်းဗထူး
+A0287,စိုင်းဝင်းမြင့်
+A0288,ဘာသမီ၊ ဒေါ်နယ်
+A0289,ကြည်၊ ဦး
+A0290,သော်ဇင်၊ ဦး၊ မြန်မာပြန်
+A0291,ဘစံ၊ ဦး
+A0292,ပြန်ကြားရေးဝန်ကြီးဌာန
+A0293,စန္ဒမာလာလင်္ကာရ၊ အသျှင်
+A0294,ကရင်နီလူထုအခြေပြုအရပ်ဖက်လူမှုအသင်းအဖွဲ့များ
+A0295,ပြည်သူ့ဆက်ဆံရေးနှင့် ပြန်ကြားရေးဌာန
+A0296,လွှတ်တော်များ ဖွံ့ဖြိုးတိုးတက်ရေးဆိုင်ရာပေါင်းစပ်ညှိနှိုင်းဆောင်ရွက်ရေးအဖွဲ့
+A0297,အမျိုးသားလွှတ်တော် နိုင်ငံရေး၊ စီးပွားရေးနှင့် ဥပဒေရေးရာကော်မရှင်
+A0298,ပြည်ထဲရေးဝန်ကြီးဌာန
+A0299,သပြေ
+A0300,ဟန်းဆိုင်ဒယ်ဖောင်ဒေးရှင်း
+A0301,မန္တလေးတိုင်းဒေသကြီးအစိုးရအဖွဲ့
+A0302,အမျိုးသားစီမံကိန်းနှင့် စီးပွားရေးဖွံ့ဖြိုးတိုးတက်မှုဝန်ကြီးဌာန
+A0303,နိုင်ငံတကာမြန်မာသတင်းအဖွဲ့(ဘီအဲန်အိုင်) မြန်မာ့ငြိမ်းချမ်းရေးလေ့လာစောင့်ကြည့်ရေးအဖွဲ့
+A0304,ပြည်ထောင်စုမြန်မာနိုင်ငံတော်အစိုးရ
+A0305,မတ်ရ်ကိုဘန်၊ ခွန်း
+A0306,တက္ကသိုလ်ဘာသာပြန်နှင့် စာအုပ်ထုတ်ဝေရေးဌာန
+A0307,ဒေသဆိုင်ရာလွှတ်တော်များအားပေးကူညီရေးအဖွဲ့
+A0308,အသံ
+A0309,နေထွန်းနိုင်နှင့် အခြား...
+A0310,ခင်မောင်ကြည်
+A0311,မြစိန်၊ ဦး
+A0312,နိရောဓနှင့် အခြား...
+A0313,တို့ဗမာအစည်းအရုံးသမိုင်းပြုစုရေးအဖွဲ့
+A0314,အောင်ထူး၊ ဦး၊ (ရှေ့နေ)
+A0315,စစ်မဟာဗျူဟာလေ့လာရေးရုံး
+A0316,တပ်မတော်လေ့ကျင့်ရေးအရာရှိချုပ်ရုံး
+A0317,လူ့အခွင့်အရေးမှတ်တမ်းကွန်ရက်( မြန်မာနိုင်ငံ)
+A0318,မြန်မာငြိမ်းချမ်းရေးနှင့်လုံခြုံရေးအင်စတီကျူ
+A0319,ဗဆွေ၊ ဦး၊ (ဝန်ကြီးချုပ်ဟောင်း)
+A0320,မြင့်ဇော်၊ မောင်
+A0321,ထွန်းရီ (ရှေးဟောင်းသုတေသီ)
+A0322,မေမြို့ချစ်ဆွေ
+A0323,သန့်ဇော် (သန်လျင်)
+A0324,ထရူးခယ်လီ
+A0325,နိုင်ငံတော်ဖွဲ့စည်းပုံအခြေခံဥပဒေဆိုင်ရာခုံရုံး
+A0326,ကျော်မိုးလွင်
+A0327,ဘာဂန်၊ မစ်ချယ်
+A0328,အံ့ခေါင်မင်း
+A0329,အောင်စွမ်း - စုစည်းတင်ပြသူ
+A0330,တင်ဦး၊ ဦး၊ သူရ နှင့် ရွှေအုန်း၊ ဦး (ညောင်ရွှေ)
+A0331,မြန်မာစာဌာန
+A0332,စည်ပင်သာယာဝန်ကြီးဌာန
+A0333,ဝင်းဖေမောင်၊ စိုးကျော်သူ
+A0334,တင်ဦး၊ မောင်၊ (ရုက္ခ)
+A0335,အောင်ဆန်းစုကြည်
+A0336,အန်အယ်လ်ဒီခေါင်းဆောင်များ
+A0337,စိန်ဝင်း၊ ဦး၊ ဂါဒီယန်
+A0338,အလင်း‌ရောက်ကော်သူးလေရဲဘော်များ
+A0339,မြင့်ဇော်၊ ဦး
+A0340,ကြည်သစ်၊ မောင် - ဘာသာပြန်
+A0341,လစ်တနာ၊ ဘာတဲလ်
+A0342,အများပြည်သူဝန်ဆောင်မှုသတင်းစာအုပ်ချုပ်ရေးအဖွဲ့
+A0343,တက္ကသိုလ်စိန်တင်
+A0344,တင်မောင်ဦး (ရွှေပြည်)
+A0345,မင်းသုဝဏ်
+A0346,ပါတီစည်းရုံးရေးဗဟိုကော်မီတီ ဌာနချုပ်
+A0347,ဘသောင်း၊ ဦး၊ ဆရာ
+A0348,ဆလိုင်းလျန်မှုန်း ဆာခေါင်း၊ ဒေါက်တာ
+A0349,ပြည်ထောင်စုရွေးကောက်ပွဲကော်မရှင်
+A0350,ပြည်‌ထောင်စုလွှတ်တော်
+A0351,ချစ်လွင်၊ ဦး
+A0352,မိုးမခ မီဒီယာ
+A0353,‌ရွှေပြည်စိုး
+A0354,စိုးရာဇာထွန်း
+A0355,သျှဒန်မုန်ဒန်ဇော်
+A0356,နေမင်း ( သရက်)
+A0357,ခိုင်ကျော်(ဥပဒေ)
+A0358,သိန်းလွင်၊ ဒေါက်တာ
+A0359,အမျိုးသားပြန်လည်သင့်မြတ်ရေးနှင့် ငြိမ်းချမ်းရေးဗဟိုဌာန
+A0360,ရဲထွန်း(သီ‌ပေါ)၊ ဆလိုင်းငွန်ကျုံးလျန်၊ ဒေါက်တာ
+A0361,ပြည်ထောင်စုမြန်မာနိုင်ငံတော်တော်လှန်ရေး‌ကောင်စီ
+A0362,အမျိုးသားဒီမိုကရေစီအဖွဲ့ချုပ်
+A0363,နိုင်ငံတော်ကြံ့ခိုင်ရေးအသင်း
+A0364,သွေးချွန်၊ မောင်
+A0365,ဘိုးသင်း၊ ဦး၊ စစ်ကိုင်း
+A0366,မုံရွာအောင်ရှင်
+A0367,ထွန်းမြင့် (မာန်အောင်)
+A0368,တာတီး( ပြည်) နှင့် အခြား..
+A0369,နောင်စစ်သည်
+A0370,စိတ်ကူးချိုချိုစာအုပ်တိုက်
+A0371,ရဲဘောင်ဖိုးသံချောင်း
+A0372,ဗမာပြည်ကွန်မြူနစ်ပါတီ
+A0373,လူထုစိန်ဝင်း
+A0374,ကနောင်အင်စတီကျူ
+A0375,‌ပေါလတ်၊ ပန် နှင့် ဘယ်ဘီဆို၊ မဂ်
+A0376,ဖဘီနီ၊ ဆာရက်
+A0377,ခင်မောင်ချို၊ ဦး
+A0378,ထူးအိမ်သင်
+A0379,ပြည်ထောင်စုမြန်မာနိုင်ငံတော်
+A0380,မြန်မာ့မဟာဗျူဟာနှင့် မူဝါဒလေ့လာရေး အင်စတီကျူ
+A0381,အမျိုးသားညီလာခံကျင်းပရေးလုပ်ငန်းကော်မတီ
+A0382,အစိမ်းရောင်မှတ်စု
+A0383,လမ်းစဥ်သတင်းစာအယ်ဒီတာအဖွဲ့
+A0384,သူပုန်ဖြူ
+A0385,မောင်ယဥ်မောင် - ဘာသာပြန်
+A0386,ချာချီလ်၊ ဝင်စတန်
+A0387,ပညာဘူမိတက္ကသိုလ်
+A0388,ကေပေါ
+A0389,ညီညွတ်၊မောင်
+A0390,မြတ်ခိုင်
+A0391,ပီကျော်ဟန်
+A0392,ကိုရွှေသိမ်းမင်း
+A0393,တင်အုန်း၊ ဦး၊ အယ်ဒီတာ (ရွှေသွေး)
+A0394,ဝင်းဇော် - မြန်မာပြန်
+A0395,မာဃ
+A0396,ကျော်ကြီး
+A0397,မင်းထွေး၊ ဦး
+A0398,မြန်မာနိုင်ငံဘာသာပြန်စာပေအသင်း
+A0399,စာပေဗိမာန်
+A0400,သမိုင်းသုတေသနဦးစီးဌာန
+A0401,တက္ကသိုလ်များပုံနှိပ်တိုက်
+A0402,ဝင်းမြင့်၊ ဦး
+A0403,ပြည်ထောင်စုငြိမ်းချမ်းရေးညီလာခံ- (၂၁) ရာစုပင်လုံတက်ရောက်ဆွေးနွေးသူများ
+A0404,ပြည်ထောင်စုရှေ့နေချုပ်ရုံး
+A0405,ပြန်ကြားရေးနှင့် ပြည်သူ့ဆက်ဆံရေးဦးစီးဌာန
+A0406,ကြည်ဦး
+A0407,ကျော်ဒွန်း၊ မောင်
+A0408,ပြည်ထောင်စုမြန်မာနိုင်ငံတော်ပါလီမန်
+A0409,မြန်မာနိုင်ငံတိုင်းပြည်ပြုလွှတ်တော်
+A0410,ပို၊ ဒေါ်၊ ပါမောက္ခ
+A0411,သစ်မောင်၊ ရဲဘော်
+A0412,အောင်မြင့်၊ ဦး
+A0413,ပြည်ထောင်စု မြန်မာနိုင်ငံတော် အစိုးရ
+A0414,လှမျိုး၊ ရဲဘော်
+A0415,ဦးသာထွန်း၊ ဦး
+A0416,ဗဟိုမြေယာကော်မတီ
+A0417,အောင်ဆန်း
+A0418,ကျော်မြင့်၊ ဦး
+A0419,လုပ်သားပြည်သူ့နေ့စဥ်
+A0420,နိုင်ငံတော်အေးချမ်းသာယာရေးနှင့်ဖွံ့ဖြိုးရေးကောင်စီ
+A0421,မြန်မာနိုင်ငံလူမှုစီးပွားရေးလုပ်ငန်းများဖွံ့ဖြိုးရေးအသင်း
+A0422,ဟန်ဒရစ်ဆန်၊ ဒစ်လန်
+A0423,မြန်မာဆိုရှယ်လစ်လမ်းစဥ်ပါတီ
+A0424,ဆလိုင်းမာန်
+A0425,ကျော်၊ ဦး (အောင်မြတ်ကျော်)
+A0426,သခင်ကိုယ်တော်မှိုင်း၊ ဆရာကြီး
+A0427,ညိုမြ၊ဦး
+A0428,မောင်မောင်ထင်၊ဦး (မဟာဝိဇ္ဇာ)
+A0429,နှင်းကေသရာ
+A0430,နန္ဒ - မြန်မာပြန်
+A0431,‌အောင်ဗလ
+A0432,မပန်းခက် - မြန်မာပြန်
+A0433,ဖ.ဆ.ပ.လ အဖွဲ့ချုပ်
+A0434,ဆလိုင်းလျန်မှုန်း
+A0435,အေဖန့်ဖန့်
+A0436,မောင်ထင်-တည်းဖြတ်
+A0437,နန္ဒမာလာဘိဝံသ၊အရှင်၊အဂ္ဂမဟာပဏ္ဍိတ
+A0438,ထွန်းဖေ၊ ဦး (ထွန်းနေ့စဉ်)
+A0439,ဆုမွန်သဇင်‌အောင်၊ ဒေါက်တာ၊ ချိုဇင်သက်
+A0440,သုတ၊ မောင် (ဗိုလ်မှူးဘသောင်း)
+A0441,ဉာနိက၊ အရှင်
+A0442,ကြန်၊ မ
+A0443,နတ်နွယ်၊လှသမိန်၊ တင်အောင် ဒေါက်တာ၊ မင်းကျော်
+A0444,လွှမ်းအောင်၊ ဓမ္မာစရိယ
+A0445,ပြည်ထောင်စုမြန်မာနိုင်ငံတော် နိုင်ငံတော်အေးချမ်းသာယာရေးနှင့်ဖွံဖြိုးရေးကောင်စီ
+A0446,ကြူးရင့်၊ မောင်
+A0447,ကိုထက်-ရေဦး
+A0448,နိုင်ဦး
+A0449,တိုင်းရင်းသားလူမျိုးများရေးရာစင်တာ
+A0450,ဆန်းစ စာမရီ
+A0451,ခိုင်မျိုးစောင့်၊ ဆရာ
+A0452,ထွန်းအောင်လွင်၊ စိုင်း နှင့် လနန်
+A0453,အာရှဖောင်ဒေးရှင်း
+A0454,ဒစ်လန် ဟန်ဒရစ်ဆန်
+A0455,အောင်ချိမ့်
+A0456,စိန်ဝင်းအောင် (မန္တလေး)
+A0457,တာမွေအောင်ကို
+A0458,ဗဟိုအောင်နိုင်ရေးအဖွဲ့
+A0459,ဝင်းဇော်
+A0460,အောင်ဇံ
+A0461,ပုည၊ ဦး
+A0462,လောကပါက၊ ဦး
+A0463,သခင်စိုး
+A0464,ပြည်ထောင်စုသမ္မတမြန်မာနိုင်ငံတော်အစိုးရ
+A0465,ထက်မြတ်
+A0466,ကြည်မောင်၊ ဦး
+A0467,တင်မောင်သန်း၊ ရှိုးအိထွန်း
+A0468,မဟတ္တမဂန္ဒီ
+A0469,ပြည်ထောင်စုအစိုးရအဖွဲ့
+A0470,ဝင်းဖေမြင့်
+A0471,မောင်ရစ် (မိုးမခမီဒီယာ)
+A0472,မွန်ပြည်နယ် အရပ်ဘက်အဖွဲ့အစည်းများ ငြိမ်းချမ်းရေးဖိုရမ်ကော်မတီ
+A0473,ငြိမ်းချမ်းရေးနှင့် လုံခြုံရေးဆိုင်ရာ မြန်မာအင်စတီကျူ
+A0474,ဇော်တင်
+A0475,ခင်မာလာကြာဖြူ
+A0476,ညီပုလေး
+A0477,ခင်လေးမြင့်၊ ဒေါက်တာ- ဘာသာပြန်
+A0478,ကျားပေါက်
+A0479,ရွှေလင်း(သုတေသီ)
+A0480,နန္ဒာသိန်းဇံ
+A0481,စံထွန်းအောင်၊ ဦး
+A0482,ဆုမွန်သဇင်အောင်၊ ဒေါက်တာ နှင့် ချိုဇင်သက်
+A0483,ဟာဗယ်လ်၊ ဗားစလဗ်
+A0484,ကိုတာ၊ ဖိလစ်
+A0485,ကြည်အေး
+A0486,အောင်မျိုး၊ ဒေါက်တာ
+A0487,စိန်သော်၊ မောင်
+A0488,ရခိုင်ပြည်လုံးဆိုင်ရာ ကျောင်းသားနှင့်လူငယ်များ အစည်းအရုံး
+A0489,စိန်ဝင်းစိန်
+A0490,ဒီမိုကရေစီနှင့် ဖွံ့ဖြိုးတိုးတက်ရေး အင်အားစု
+A0491,ဘားမားမော်နီတာ
+A0492,ကရင်အမျိုးသားအစည်းအရုံး
+A0493,ထိန်လင်း၊ ပန်းချီ
+A0494,မောင်မောင်စိုး
+A0495,ချာလီချက်ပလင်
+A0496,ညီစေမင်း
+A0497,ကိုတာ (မြန်မာပြန်)
+A0498,ပြည်ထောင်စုအင်စတီကျူ့
+A0499,ဘသန်း၊ ဓမ္မိက
+A0500,စုံစမ်းရေးကော်မရှင်
+A0501,အောင်ဆန်းစုကြည်၊ ဒေါ်
+A0502,အောင်သင်း
+A0503,ရွှေအောင်၊ ဦိး
+A0504,မင်းမောင်မောင်
+A0505,သောင်းဝေဦး
+A0506,ကိုဇန်
+A0507,ရှိုလိုခေါ့ဗ်၊ မီးခေး
+A0508,ထွန်းမြင့်၊ ဦး၊ ဒဂုန်
+A0509,မှူးသမိန်
+A0510,ဘုန်းသက်ပိုင်
+A0511,အေးချမ်း၊ ဒေါက်တာ
+A0512,ကျော်အောင်၊ ဦး
+A0513,ဘမောင်၊ သခင်
+A0514,မြန်မာနိုင်ငံတိုင်းရင်းသားဘာသာစကားဦးစီးဌာန
+A0515,ကျော်ဝင်း- မြန်မာပြန်
+A0516,ခင်ကျော်ဟန်- ပြုစုသူ
+A0517,ကရင်နီပြည်လူမျိုးပေါင်းစုံပြည်သူ့လွတ်မြောက်ရေးတပ်ဦး
+A0518,တင်ဝင်းအောင်၊ ဦး (တရားလွှတ်တော်ရှေ့နေ)
+A0519,စွတ်က်စိုင်၊ ချူတီမာစ် နှင့် အခြား...
+A0520,ဌေးနိုင်- မြန်မာပြန်
+A0521,ရာထို၊ မ၊ မြို့သာ
+A0522,အောင်အေး (ရန်ကုန်တက္ကသိုလ်) - မြန်မာပြန်
+A0523,လှဝင်း၊ ဦး (လေသူရဲတစ်ဦး)
+A0524,မောင်မောင်လှိုင် (အပ်စိုက်ကု)
+A0525,လူအောင်- ဝမ်းတွင်း
+A0526,အမျိုးသားညီလာခံ ကျင်းပရေးကော်မရှင်
+A0527,ခိုင်အောင်၊ မောင် (စစ်တွေ)
+A0528,လှမောင်၊ ဒေါက်တာ (ဘောဂ)
+A0529,ကျော်မောင်မောင်
+A0530,စစ်ငြိမ်း
+A0531,ချစ်ကြည်ရေးကြည်ညွန့်
+A0532,ပြည်ထောင်စုကြံ့ခိုင်ရေးနှင့် ဖွံ့ဖြိုးရေးအသင်း
+A0533,ဝင်းကြည်၊ ဗိုလ်မှူးကြီး (ငြိမ်း)
+A0534,ထွန်းကြည်၊ ဗိုလ် (မုံရွာ)
+A0535,စိန်၊ ဦး (ဥပဒေ)
+A0536,မောင်ရေစက်
+A0537,တပ်မတော်သား သုတေသီတစ်ဦး
+A0538,ညီညီ၊ ဒေါက်တာ
+A0539,နိုင်ငံရေးကဏ္ဍဆိုင်ရာ လုပ်ငန်းကော်မတီ တိုင်းရင်းသားလက်နက်ကိုင်တော်လှန်ရေးအဖွဲ့အစည်းများ
+A0540,အထွေထွေအုပ်ချုပ်ရေးဦးစီးဌာန
+A0541,စီအဲန်ဘီးလို၊ ဦး
+A0542,မွန်ပြည်နယ်လူထုဆုံရပ်
+A0543,ခင်မေဇော်
+A0544,ကျင့်ခန့်ဆွန်း
+A0545,ကျော်တင့်၊ ဗိုလ်
+A0546,ရဝေနွယ်၊ အင်းမ
+A0547,အောင်နိုင်ဦး
+A0548,သန်းထွန်း၊ ဆင်ဖြူကျွန်း
+A0549,ခင်မောာင်ကျော်
+A0550,ခင်မောင်လေး၊ နိုင်
+A0551,ဟိန်းလတ်၊ အွန်လိုင်းဝဏ္ဏ
+A0552,ပြည်သူ့ပန်းတိုင်
+A0553,ဝန်၊ ဦး (မင်းသုဝဏ်)
+A0554,လေ့လာသူတစ်ဦး
+A0555,ဗဟိုဝန်ထမ်းတက္ကသိုလ် (အောင်မြန်မာပြည်)
+A0556,ဥပဒေသုတေသီ- စုဆောင်းသူ
+A0557,ပြည်ထောင်စုမြန်မာနိုင်ငံတော် ဝန်ထမ်းရွေးချယ်လေ့ကျင့်ရေးအဖွဲ့
+A0558,ဘဦး၊ ဦး
+A0559,အမျိုးသမီးများအဖွဲ့ချုပ် (မြန်မာနိုင်ငံ)
+A0560,Saferworld
+A0561,ခင်မောင်ကြည်၊ ဒေါက်တာ
+A0562,တင်၊ ဦး
+A0563,တနင်္သာရီတိုင်း‌ဒေသကြီးလွှတ်တော်
+A0564,ပါဠိဌာန
+A0565,လီလိန်း နှင့် နိုရာမေ
+A0566,တံပိုးသံစာစဥ်
+A0567,ကံလှ (ငါန်းဇွန်)
+A0568,ဇိုရန်ကိုင်းလ်၊ ဒေါက်တာ နှင့် အန်ဒရေယာစ် ဟိုင်းနီးမန်းဂရူးဒါး၊ ဒေါက်တာ
+A0569,ကုလသမဂ္ဂအမျိုးသမီးများရေးရာအဖွဲ့
+A0570,ငြိမ်းချမ်းရေးအတွက် ကျား၊ မ တန်းတူရေးမဟာမိတ်အဖွဲ့
+A0571,နီဒါးမီးယား၊ အလက်ဇန်းဒါး
+A0572,အိအိမင်း၊ နော်
+A0573,မြန်မာနိုင်ငံလုံးဆိုင်ရာအမျိုးသမီးရေးရာကော်မတီ
+A0574,Halcyon
+A0575,သိန်းဇော်၊ မောင်
+A0576,ငြိမ်းချမ်းရေး
+A0577,အန်ဒါဆန်၊ ‌‌ဂျော့
+A0578,စီမံကိန်းနှင့် ဘဏ္ဍာရေးဝန်ကြီးဌာန
+A0579,သာမြတ်၊ ဦး၊ သီရိပျံချီ
+A0580,ငြိမ်းချမ်းမျှတ လူမှုအဖွဲ့အစည်း၊ ဒါန- ရှေ့ဆောင်မြန်မာ၊ အောက်ချင်းလူမှုအဖွဲ့အစည်း
+A0581,ဂရုတ်၊ ရေယန်နာ၊ ဒေါက်တာ
+A0582,ပါတီများနှင့် ဒီမိုကရေစီဆိုင်ရာ ဒိန်းမတ်အင်စတီကျူ
+A0583,တင့်ဝင်းနိုင်၊ ဦး
+A0584,ဇော်ဇော်အောင်
+A0585,သန်းထွန်း၊ ဒေါက်တာ- မြန်မာပြန်
+A0586,ဝဲလ်ဘတ်၊ မီရှယ်
+A0587,Internews အဖွဲ့သားများ
+A0588,ဆုမွန်သဇင်အောင် နှင့် အာနိုး၊ မက်သရူး
+A0589,ဝင်းမျိုးသူ၊ ဦး
+A0590,သင့်မြတ်သူများ၏ ငြိမ်းချမ်းရေးလမ်းစဥ်အဖွဲ့
+A0591,သံလွင်နိုင်ငံသားစွမ်းရည်မြှင့်တင်ရေးအဖွဲ့
+A0592,သံလွင်ပြည်သူ့ရေးရာမူဝါဒများလေ့လာရေးအဖွဲ့
+A0593,ထင်ကျော်၊ ဦး၊ နိုင်ငံတော်သမ္မတ
+A0594,သိန်းစိန်၊ ဦး
+A0595,ဆေ့ဖ်ဖားလ်ဝါးလ်
+A0596,သဥ္ဇာထွန်း
+A0597,SACC
+A0598,ဂျိုလိဖ်၊ ကင်မ်
+A0599,ရခိုင်အမျိုးသားပါတီ
+A0600,ခင်အောင်မြင့်၊ ဦး
+A0601,ဟာဒင်၊ အင်ဒရူး
+A0602,ဘုန်းပြည့်စုံ
+A0603,ဖက်ဒရယ်ဒီမိုကရက်တစ်အင်အားစု
+A0604,မြန်မာ့ယဥ်ကျေးမှုသုတေသနအသင်း
+A0605,သံလွင် နိုင်ငံသားစွမ်းရည်မြှင့်တင်ရေးအဖွဲ့
+A0606,ဆောက်၊ အက်ရှ်လေ၊ ဒေါက်တာ
+A0607,Another Development (AD)
+A0608,မြန်မာအမျိုးသမီးသမဂ္ဂ
+A0609,မြစ်ကြီးနားအခြေစိုက် ရှမ်းမျိုးနွယ်စုရေးရာအဖွဲ့ (SEA)
+A0610,မြန်မာပြည်မြောက်ပိုင်း(ကချင်ပြည်နယ်) ဒေသခံသျှမ်းမျိုးနွယ်စုများ
+A0611,စံပို၊ ဦး
+A0612,ဟုမ်၊ ဒေးဗဒ်၊ တင်မောင်သန်း နှင့် ကင်(မ်)နင်
+A0613,ဟူးပါး၊ ဒဗလျှူ၊ ဒဗလျှူ
+A0614,Myanmar Institute For Peace and Security
+A0615,လှမျိုးနွယ်၊‌ ဒေါ်
+A0616,ခင်ညွှန့်၊ ဗိုလ်ချုပ်
+A0617,ခွန်းမတ်ရ်ကိုဘန်
+A0618,ရှမ်းမျိုးနွယ်စုရေးရာအဖွဲ့ (ကချင်ပြည်နယ်)
+A0619,ပြည်သူ့ခေတ် အယ်ဒီတာအဖွဲ့
+A0620,ပြည််ထောင်စုသမ္မတမြန်မာနိုင်ငံတော်
+A0621,စိုင်းထိန်လင်း၊ ဦး
+A0622,မျိုးမင်းသန်း၊ ဒေါက်တာ
+A0623,ဆလိုင်း လျန်မှုန်း ဆာခေါင်း
+A0624,စိုးသိန်း
+A0625,"ကတ်ထ်, ဟယ်လ်လန်နာ"
+A0626,ဗညားအောင်
+A0627,ကျော်မျိုးဝင်း(ရှေး/သု)
+A0628,မင်းသေ့
+A0629,အောင်ခင်စိုး
+A0630,"ဘန်, ခွန်မာကို"
+A0661,Than Tun
+A0694,"Myint Zan, Dr"
+A0695,"Turabian, Kate L"
+A0696,"Cortight,David;Greenberg,Melanie and Stone,Laurel"
+A0697,"Brady, Henry E;Collier,David"
+A0698,"Gray King, Keohane,Robert O; Verba, Sidney"
+A0699,"Mohler Jr.,R.Albert"
+A0700,Organisation For Economic Co-operation And Development
+A0701,"Hunt, Elgin F; Colander,David C"
+A0702,"Brown,Kerry"
+A0703,"Tanzi,Vito and Schuknecht, Ludger"
+A0704,"Kabra,Fawz"
+A0705,"Behnassi, Mohamed; Pollmann, Olaf; and Gupta, Himangana"
+A0706,"Dye, Thomas R."
+A0707,People's Goal Report
+A0708,"Joseph, William A."
+A0709,"Laitin, David D."
+A0710,"Casper, Gretchen"
+A0711,"Hendrickson, Dylan and Jolliffe, Kim"
+A0712,"Jolliffe, Kim"
+A0713,"Kaup, Katherine Palmer"
+A0714,"Cranna, Michael"
+A0715,Volume 101
+A0716,"Thein Hlaing, U"
+A0717,"Thanegi, Ma, Journal Kyaw Ma Ma Lay"
+A0718,"Yi Yi, Dr."
+A0719,"Bennett, Amanda"
+A0720,Bulletin
+A0721,"Cooper, Adam B."
+A0722,"Bradburn, Norman; Sudman, Seymour; Wansink, Brian"
+A0723,UNDP Myanmar
+A0724,T20 Summit
+A0725,ISP Myanmar
+A0726,"Frankfort-Nachmias, Chava; Nachmias, David"
+A0727,"Lim, Timothy C."
+A0728,"Kaplan, Abraham; Charles Wolf,Jr."
+A0729,"Echle, Christian; Rueppel, Patrick; Sarmah, Megha; Hwee, Yeo Lay"
+A0730,"Alagappa, Muthiah"
+A0731,"Richards, Olly"
+A0732,"Greenberg, Stanley B."
+A0733,Volume 94
+A0734,"Malici, Akan and Smith, Elizabeth S."
+A0735,Volume 99
+A0736,Volume 100
+A0737,"Brand, Willemien"
+A0738,"Sedra, Mark"
+A0739,"Berg-Schlosser, Drik; Badie, Bertrand; Morlino, Leonardo"
+A0740,"Glanzberg, Michael"
+A0741,Internews
+A0742,People's Alliance for Credible Elections
+A0743,Transnational Institute
+A0744,Myanmar Historical Commission
+A0745,National Convention
+A0746,"Biddle, Stephen"
+A0747,"Edelmann, David"
+A0748,Volume 2
+A0749,Volume 1
+A0750,"Feldt, Lutz; Peter Roell, Dr; Ong-Webb, Graham, Dr; Seokwoo Lee, Dr. Prof;"
+A0751,"Maung Maung, Dr"
+A0752,Vintage Minis
+A0753,"Kham Mong, Sai"
+A0754,"Fischer, Frank; Miller, Gerald J., Sidney, Mara S."
+A0755,Lintner Bertil
+A0757,"McGann, James G."
+A0758,"Callaban, Mary P."
+A0759,"Ostrom, Elinor"
+A0760,"Fink, Conrad"
+A0761,"Silverstein, Josef"
+A0762,"Steinberg, David; Smith, Martin; Liddell, Zunetta; Purcell, Marc : (Burma Center Netherlands)"
+A0763,"Corduneanu-Huci, Cristina; Hamilton, Alexander; Ferrer, Issel Masses"
+A0764,"Roberts-Miller, Patricia"
+A0765,"Almendral, Violeta Ruiz and Vaillancourt, Francois"
+A0766,Volume 103
+A0767,"Collier, Paul; Elliott, V.L.; Hegre, Havard; Hoeffler, Anke; Reynal-Querol, Marta; Sambanis, Nicholas"
+A0768,"Ikenberry, G.John; Mastanduno, Michael"
+A0769,"East-West Center, US-ASEAN, ISEAS"
+A0770,"Banerjee, Abhijit V. and Duflo Esther (Winners of the Nobel Prize)"
+A0771,"Su Mon Thazin Aung and Arnold, Matthew"
+A0772,Social Accountability Partnerhip Management Committee
+A0773,"Denney, Lisa; Bennett, William and Khin Thet San"
+A0774,The Asia Foundation
+A0775,International Labour Organization
+A0776,ICG Asia Report
+A0777,Konrad Adenauer Stiftung
+A0778,"Wensheng, Lu and K. Murray"
+A0779,"Winter, Michael and Mya Nandar Thin"
+A0780,Central Statistical Organization
+A0781,"Kramer, Tom; Jensema, Ernestien; Jelsma, Martin; Blickman, Tom"
+A0782,Focus on the Global South
+A0783,"Rozenberg, Guillaume"
+A0784,"Tinzar Htut and Raunaud, Mael"
+A0785,"Buchanan, John; Kramer, Tom and Woods, Kevin (Trnsnational Institute Burma Centre Netherlands)"
+A0786,"Buchannan, John"
+A0787,"Landman, Todd"
+A0788,"Cypher, James M. and Dietz, James"
+A0789,"Sukkumnoed, Decharut and Porkar, Pattanan"
+A0790,"Power, Greg and Shoot, Rebeccaa"
+A0791,Zulueta-Fulscher and Asanga Welikala
+A0792,Asian-Pacific Resources & Research Centre for Women (ARROW)
+A0793,"Yang, Xianming; Wang, Zanxin; Chen, Ying and Yuan, Fan"
+A0794,"Reynolds, Andrew"
+A0795,"Bardach, Eugene"
+A0796,"Hirono, Miwa"
+A0797,MyJustice
+A0798,Mankiw
+A0799,"Bell, Christine and Zulueta-Fulscher, Kimana"
+A0800,"South, Ashley and Lall, Marie"
+A0801,Myanmar Geographic
+A0802,"Owen, James; Hay Mahn Htun"
+A0803,"Popkova, Elena G.; Ragulina, Yulia V.; Bongoviz, Aleksei V."
+A0804,Myint Myint Khin
+A0805,Shan Women's Action Network
+A0806,Furnivall J.S
+A0807,"Lefevre, Raphael"
+A0808,"Smith, Mark J"
+A0809,"Huntington, Samuel P."
+A0810,"Kurtz, Lester R. and Smithey Lee A,"
+A0811,"Brady, David and Burton, Linda M."
+A0812,"Huang, Xiaoming"
+A0813,"Sadan, Mandy"
+A0814,"Ahmad, Ehtisham and Brosio, Giorgio"
+A0815,"Lees-Marshment, Jennifer"
+A0816,"Collings, David G; Mellahi, Kamel and Cascio, Wayne F."
+A0817,"Marron, Donald"
+A0818,"Heywood, Andrew"
+A0819,"Maung Maung,U"
+A0820,"Rabin, Jack; Hildreth, W.Bartley and Miller, Gerald J."
+A0821,"Zakaria, Fareed"
+A0822,Sara Su
+A0823,"Klassen, Thomas R; Cepiku, Denita and Lah, T.J"
+A0824,"Bekke, Hans A.G.M and Van der Meer, Frits M."
+A0825,"Editorial Committee (Lau Kin Chi; Manipon, Aida Jean N, ...)"
+A0826,"Chomsky, Noam"
+A0827,"Chutintaranond, Sunait and Than Tun"
+A0828,"Harvey, Gordon"
+A0829,"Gifford and Pinchot, Elizabeth"
+A0830,"Burgess, Heidi and Burgess, Guy"
+A0831,"Quinney, Nigel and Coyne, A.Heather"
+A0832,"Lehmann, Ingrid A."
+A0833,"Whitfield, Teresa"
+A0834,"Hugh, Gerard Mc"
+A0835,"Khin Hla Han, Dr"
+A0836,"Vliet, Martin Van; Wahiu, Winluck; Magolowondo, Augustine"
+A0837,International Institute for Electoral Assistance (IDEA)
+A0838,"Duffy, Jill"
+A0839,"Okell, John and Allott, Anna"
+A0840,"Blindenbacher, Raoul and Pasma, Chandra"
+A0841,"Nerenberg, Karl"
+A0842,Sai Kham Mong
+A0843,"Larkin, Emma"
+A0844,"Shelly, Mary"
+A0845,"Embassy of India, Yangon"
+A0846,"Berg, Caspar F.van den"
+A0847,"Visvanathan, Nalini; Duggan, Lynn; Nisonoff, Laurie and Wiegersma, Nan"
+A0848,"Kaungbon, Minye"
+A0849,"Stewart, Lucas and Birnbaum, Alfred"
+A0850,"Becker, Jasper"
+A0851,"South, Ashley"
+A0852,"Torre, Carlos de la"
+A0853,Kyi Win Sein (Malcolm)
+A0854,"Brown, Lester R."
+A0855,Burma News International
+A0856,"Lyol, LEE Choong; Seok-Joon, HONG; Dae-yeong, YOUN"
+A0857,"Vannette, David L. & Krosnick, Jon A."
+A0858,Network For Human Rights Documentation - Burma
+A0859,SaferWorld
+A0860,"Killian, Jerri and Eklund, Nikalas"
+A0861,"Wahlers, Gerhard, Dr"
+A0862,Peace Leadership & Research Institute
+A0863,"Ministry of Foreign Affairs, Japan"
+A0864,"Friedman, Thomas L."
+A0865,"Mitchelle, Peter R. and Schoeffel, John"
+A0866,"Chan, Vanessa"
+A0867,"Gough, Brendan"
+A0868,"Muenjohn, Nuttawuth & McMurray, Adela"
+A0869,Stephens Moore
+A0870,"Rosenfeld, Michel and Sajo, Andras"
+A0871,Thabyay Education Foundation
+A0872,"Epping, Randy Charles"
+A0873,"Berman, Evan M ; Moon, M.Jae & Choi, Heungsuk"
+A0874,"Visvanathan, Nalini; Duggan, Lynn; Wiegersma, Nan and Nisonoff, Laurie"
+A0875,Foreign Langugage Press
+A0876,"Brownlie, Ian"
+A0877,"Kotler, Philip; Jatusripitak, Somkid; Maesincee, Suvit"
+A0878,"Hallastorm, Niclas; Nordberg, Olle and Osterbergh, Robert"
+A0879,"Wieczorek-Zeul, Heidemarie"
+A0880,"Miller, Roger Leroy & Vanhoose, David"
+A0881,"Tarrow, Sidney"
+A0882,"Holzgrefe, J.L and Keohane, Robert O."
+A0883,"Norris, Pippa"
+A0884,"Jones, R.J Barry"
+A0885,"Alvin and Toffler, Heidi"
+A0886,"Lancaster, Carol and Van De Walle, Nicolas"
+A0887,"Lendvai, Paul"
+A0888,"Liang-Fenton, Debra"
+A0889,"Perry, Peter John"
+A0890,"Roberts, J.Timmons and Hite, Amy Bellone"
+A0891,"Li, Minqi"
+A0892,"Bardhan, Pranab and Mookherjee, Dilip"
+A0893,"Burns, John P and Bowornwathana, Bidhya"
+A0894,"Anderson, James E"
+A0895,"Kaosa-ard, Mingsam and Adam, Andrew"
+A0896,"AO, Temjenmeren"
+A0897,"Bennis, Warren and Biederman, Patricia Ward"
+A0898,Myat Thein
+A0899,"Bruneau, Thomas and Trinkunas, Harold"
+A0900,"Crouch, Melissa"
+A0901,"Siridharan, E."
+A0902,"Diamond, Larry"
+A0903,"Mazmanian, Daniel A & Sabatier, Paul A"
+A0904,"Waters, Adam"
+A0905,"Halligan, John"
+A0906,"Andersen, Louise; Moller, Bjorn; and Stepputat, Finn"
+A0907,"Roberts, Christopher"
+A0908,"Kriesberg, Louis"
+A0909,"Plattner, Marc F and Diamond, Larry"
+A0910,"Harrison, Paul"
+A0911,"Cascio, Wayne F"
+A0912,"Azzi, Assaad; Chryssochoou, Xenia; Klandermans, Bert and Simon, Bernd"
+A0913,"Margalit, Avishai"
+A0914,"Nepstad, Sharon Erickson"
+A0915,"Harmel, Robert and Svasand, Lars G"
+A0916,"Khin Maung Nyunt, Dr"
+A0917,"Todaro, Michael P and Smith, Stephen C."
+A0918,"Hand, David J."
+A0919,"Edelmann,  David"
+A0920,Heinrich Boll Stiftung
+A0921,"Than Tun (M.A.,B.L.,Ph.D.(London)"
+A0922,"Tinker, Hugh"
+A0923,"Pallant, Julie"
+A0924,---
+A0925,Symposium
+A0926,"Su Mon Thazin Aung; Arnold, Matthew"
+A0927,"Binder, Martin"
+A0928,"Mark, SiuSue"
+A0929,"Sachs, Jeffrey"
+A0930,"Sahadzic, Maja; Popelier, Patricial, Moreno, Luis; Cordell, Karl; Sanjaume-Calvet, Marc"
+A0931,"Fink, Christina"
+A0932,"Turan, Omer and Cicekoglu, Feride"
+A0933,Ganesan N. and Kyaw Yin Hlaing
+A0934,"Selth, Andrew"
+A0935,Mya Maung
+A0936,"Licklider, Roy"
+A0937,"Lucas, George"
+A0938,"Shafritz, Jay M. and Ott J.Steven"
+A0939,"Babbie, Earl"
+A0940,"Lintner, Bertil"
+A0941,"Zhu, Zhiqun"
+A0942,"Grindlem, Merilee S"
+A0943,"Hodess, Robin; Inowlocki, Tania; Rodriguez, Diana and Wolfe, Toby"
+A0944,"Johnston, Hank"
+A0945,"Mayer-Schonberger, Viktor and Cukier, Kenneth"
+A0946,"Tarling, Nicholas and Gomez, Edmund Terence"
+A0947,"Nooruddin, Irfan"
+A0948,"Boyd, Richard; Galjart, Benno and Ngo, Tak-Wing"
+A0949,Sandhi Governance Institute
+A0950,"Tin Maung Maung Than, Dr"
+A0951,"Zucman, Gabriel"
+A0952,Mekong Institute
+A0953,"Kramer, Tom; Russell, Oliver; Smith, Martin"
+A0954,"Shahpur, Tengku; Visser, Laurens"
+A0955,"Abbott, Pamela; Wallance, Claire and Sapsford, Roger"
+A0956,"Verheijen, Tony"
+A0957,"Islam, Lyanatul and Chowdhury, Anis"
+A0958,"Schedler, Andreas; Diamond, Larry and Plattner, Marc F"
+A0959,"Klemke, E.D; Hollinger, Robert; Rudge, David Wyss with Kline, A.David"
+A0960,"Stiglitz, Joseph E."
+A0961,"McGregor, Katharine E."
+A0962,"Lieberthal, Kenneth"
+A0963,"Kaplan, Robert D."
+A0964,"Case, William"
+A0965,"Firchow, Pamina"
+A0966,"Waldner, David"
+A0967,Maung Maung
+A0968,"Chua, Amy"
+A0969,"Denscombe, Martyn"
+A0970,"Blaxter, Loraine; Hughes, Christina and Tight, Malcolm"
+A0971,"Wade, Francis"
+A0972,"Pressman, Jeffery L. and Wildavsky, Aaron"
+A0973,"Nemoto, Naoko and Yoshino, Naoyuki"
+A0974,"Romm, Joseph"
+A0975,"Freier, Paulo"
+A0976,"Aung-Thwin, Michael Arthur and Hall, Kenneth R."
+A0977,"Grindle, Merilee S,"
+A0978,"Bodhi, Bhikkhu"
+A0979,"Rondinelli, Dennis A. and Cheema, G.Shabbir"
+A0980,"Korten, David C."
+A0981,Republic of the Union of Myanmar
+A0982,JICA Research Institute
+A0983,"Puey, Ungphakorn"
+A0984,"Bartoli, Andrea"
+A0985,Zaw Oo and Win Min
+A0986,"Grindle, Merilee S and Thomas, John W."
+A0987,"Collis, Maurice"
+A0988,Ben-Yehuda
+A0989,Yein Nwe Parr
+A0990,"Davis, Jr. James W."
+A0991,"Smith, Martin"
+A0992,"Dunsire, Andrew"
+A0993,"Smith, Amy L. and Smock, David R."
+A0994,"Garten, Jeffery E."
+A0995,"Cotterell, Arthur"
+A0996,Institute for Democracy and Electoral Assistance
+A0997,2nd International Coference on International Relations and Development
+A0998,"Hildreth, Bartley W.; Miller, Gerald J. and Lindquist, Evert A."
+A0999,"Valverde, Mariana; Clarke, Kamari; Darian-Smith, Eve and Kotiswaran, Prabha"
+A1000,"Martin, Brian"
+A1001,"Johansen, Robert and Swigart, Rob"
+A1002,Panorama (Insights into ASIAN and EUROPEAN Affairs)
+A1003,"Cheesman, Nick"
+A1004,"Keen, David"
+A1005,"Esteva, Gustavo and Prakash, Madhu Suri"
+A1006,"Brown, Michael E. and Ganguly, Sumit, editors"
+A1007,"De Veaux, Richard; Velleman, Paul F. and Bock, David E."
+A1008,Design Media Publishing Limited
+A1009,Kyaw Myo Naing
+A1010,Kyaw Myo Naing @ Kyaw Win
+A1011,Women's League of Burma
+A1012,"Rapley, John"
+A1013,"Tay, Simon S.G. and Hwee, Lay, Yeo"
+A1014,"Mason, Simon J.A. and Siegfried, Matthias"
+A1015,"Popkova, Elena G.; Ragulina, Yulia V.; Bogoviz, Aleksei V."
+A1016,"Shwe Shwe Sein Latt; Ninh, Kim N.B; Mi Ki Kyaw Myint and Susan Lee"
+A1017,"Drissi, Soundous: Dixon, Kate"
+A1018,Thabyay Education Foundation
+A1019,The International Institute For Strategic Studies
+A1020,"Peters, B.Guy"
+A1021,"Mason, Paul"
+A1022,"Pohlmann, Christian"
+A1023,"Barnett, Thomas P.M."
+A1024,"Friedberg, Aaron L."
+A1025,"Perlmutter, Saul: Campbell, John: MacCoun, Robert"
+A1026,Harn Lay
+A1027,Charity-Oriented Myanmar
+A1028,"Jasan, Pat"
+A1029,Myanmar Centre for Responsible Business
+A1030,"Caballero-Anthony, Mely and Gong, Lina"
+A1031,"Hill, Hal: V.Ravago, Majah-Leah and Roumasset, James A."
+A1032,"Taylor, Robert H"
+A1033,"Campbell, Rebecca and McGowan, Anthony"
+A1034,"Chang, Ha-Joon"
+A1035,"Ware, Anthony and Skidmore, Monique"
+A1036,"Lei, Zou"
+A1037,"Kumar, Sanjeev"
+A1038,"Breslin, Shaun"
+A1039,"Hew, Denis and Tijaja, Julia"
+A1040,Foreign Affairs
+A1041,"Chachavalpongpun, Pavin"
+A1042,"Minear, Larry and Smith, Hazel"
+A1043,"Talmadge, Cailtin"
+A1044,PS Quarterly
+A1045,"Cooper, Robert"
+A1046,"Han, Enze"
+A1047,Association of ASEAN Scholars
+A1048,Healthy Public Policy Foundation
+A1049,"Smith, Martin and Gelbort, Jason"
+A1050,"Huxley, Tim, Dr"
+A1051,"Gabusi, Giuseppe and Neironi, Raimondo"
+A1052,RCSD
+A1053,"Isis: Qaeda, Al and Beyond"

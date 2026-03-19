@@ -1,0 +1,97 @@
+generator client {
+  provider = "prisma-client"
+  output   = "../lib/generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+// ─── User ───────────────────────────────────────────────
+model User {
+  id         String   @id @default(uuid())
+  user_id    String   @unique @default(uuid())
+  username   String
+  email      String   @unique
+  password   String
+  is_admin      Boolean  @default(false)
+  refresh_token String?  @unique
+  created_at    DateTime @default(now())
+  updated_at    DateTime @updatedAt
+
+  borrow_books BorrowedBook[]
+
+  @@map("users")
+}
+
+// ─── Author ─────────────────────────────────────────────
+model Author {
+  id        String @id @default(uuid())
+  author_id String @unique @default(uuid())
+  name      String
+
+  books        Book[]
+  borrow_books BorrowedBook[]
+
+  @@map("authors")
+}
+
+// ─── Publisher ──────────────────────────────────────────
+model Publisher {
+  id           String @id @default(uuid())
+  publisher_id String @unique @default(uuid())
+  name         String
+
+  books Book[]
+
+  @@map("publishers")
+}
+
+// ─── Book ───────────────────────────────────────────────
+model Book {
+  id                   String   @id @default(uuid())
+  book_id              String   @unique @default(uuid())
+  title                String
+  language             String?
+  place_of_publication String?
+  published_year       Int?
+  edition              String?
+  price                Float?
+  class_number         String?
+  source               String?
+  notes                String?
+  created_at           DateTime @default(now())
+
+  author_id    String?
+  author       Author?    @relation(fields: [author_id], references: [id])
+  publisher_id String?
+  publisher    Publisher? @relation(fields: [publisher_id], references: [id])
+
+  borrow_books BorrowedBook[]
+
+  @@map("books")
+}
+
+// ─── BorrowedBook ───────────────────────────────────────
+enum BorrowStatus {
+  borrowed
+  returned
+  overdue
+}
+model BorrowedBook {
+  id          String    @id @default(uuid())
+  borrow_id   String    @unique @default(uuid())
+  borrowed_at DateTime  @default(now())
+  due_date    DateTime
+  returned_at DateTime?
+  status      BorrowStatus    @default(borrowed)
+
+  book_id   String?
+  book      Book?   @relation(fields: [book_id], references: [id])
+  user_id   String?
+  user      User?   @relation(fields: [user_id], references: [id])
+  author_id String?
+  author    Author? @relation(fields: [author_id], references: [id])
+
+  @@map("borrowed_books")
+}
