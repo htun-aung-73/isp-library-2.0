@@ -13,7 +13,7 @@ import {
 } from "ag-grid-community"
 
 import { Button } from "@/components/ui/button"
-import { BookOpen, Eye, Loader2 } from "lucide-react"
+import { BookOpen, Eye, Library, Loader2 } from "lucide-react"
 import Link from "next/link"
 import { useGetBooksQuery } from "@/lib/redux/services/libraryApi"
 import { useAppSelector } from "@/lib/redux/hooks"
@@ -146,13 +146,16 @@ export function BookAgGrid() {
 
   if (isLoading) {
     return (
-      <div className="relative flex flex-col items-center justify-center min-h-[60vh]">
-        <div className="absolute inset-0 flex items-center justify-center z-10">
-          <Loader2 className="h-10 w-10 animate-spin text-primary" />
+      <div className="flex flex-col min-h-[60vh] w-full items-center justify-center space-y-4 bg-background/50 backdrop-blur-sm">
+        <div className="relative flex items-center justify-center">
+          <div className="absolute h-16 w-16 rounded-full border-4 border-primary/20 animate-pulse" />
+          <div className="p-4 rounded-full bg-primary/10 relative">
+            <Library className="h-8 w-8 text-primary animate-pulse" />
+          </div>
         </div>
-        <div className="w-full space-y-4">
-          <Skeleton className="h-9 px-3 rounded-md w-64" />
-          <Skeleton className="h-[60vh] w-full rounded-lg mt-8" />
+        <div className="flex items-center space-x-2 text-muted-foreground animate-in fade-in duration-500">
+          <Loader2 className="h-4 w-4 animate-spin text-primary" />
+          <span className="text-sm font-medium tracking-wide">Loading Books...</span>
         </div>
       </div>
     )
