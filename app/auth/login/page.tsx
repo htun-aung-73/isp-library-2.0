@@ -76,8 +76,9 @@ function LoginForm() {
       email: values.email,
       password: values.password,
     }).unwrap().then((data) => {
-      router.push(callbackUrl)
+      router.prefetch(callbackUrl)
       router.refresh()
+      router.push(callbackUrl)
       toast.success("Login successful!", {
         classNames: {
           icon: 'text-green-500',

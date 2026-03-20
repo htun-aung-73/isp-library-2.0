@@ -15,6 +15,7 @@ import type {
     Book as PrismaBook,
     Publisher as PrismaPublisher,
     BorrowedBook as PrismaBorrowedBook,
+    BorrowStatus,
 } from "@/lib/generated/prisma/client"
 
 // ─── Books ──────────────────────────────────────────────
@@ -334,7 +335,7 @@ export async function getBorrowedBooksByUserId(userId: string): Promise<Borrowed
     }
 }
 
-export async function getAllBooksByStatus(status: string): Promise<BorrowedBook[]> {
+export async function getAllBooksByStatus(status: BorrowStatus): Promise<BorrowedBook[]> {
     try {
         const records = await prisma.borrowedBook.findMany({
             where: { status },
