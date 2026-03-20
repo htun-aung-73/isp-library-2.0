@@ -11,8 +11,8 @@ const JWT_RESET_SECRET = new TextEncoder().encode(
     process.env.JWT_RESET_SECRET || "reset-secret-at-least-32-chars-long-1234"
 )
 
-export const ACCESS_TOKEN_EXPIRY = "15m"
-export const REFRESH_TOKEN_EXPIRY = "7d"
+export const ACCESS_TOKEN_EXPIRY = "30s"
+export const REFRESH_TOKEN_EXPIRY = "1m"
 export const RESET_TOKEN_EXPIRY = "15m"
 
 export async function generateAccessToken(user: SessionUser): Promise<string> {
