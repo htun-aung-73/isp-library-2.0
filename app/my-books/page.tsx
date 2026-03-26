@@ -20,7 +20,7 @@ export default function MyBooksPage() {
   const returned = books?.filter((book) => book.status === "returned")
 
   if (isLoading) {
-    <div className="container mx-auto px-4 py-12 space-y-8">
+    return (<div className="container mx-auto px-4 py-12 space-y-8">
       {/* Header Skeleton */}
       <div className="space-y-4">
         <Skeleton className="h-10 w-64" />
@@ -33,7 +33,7 @@ export default function MyBooksPage() {
           <Skeleton key={i} className="h-48 w-full rounded-2xl" />
         ))}
       </div>
-    </div>
+    </div>)
   }
 
   if (isError) {

@@ -280,7 +280,7 @@ function mapBorrowedBook(bb: {
     author_id: string | null
     book?: { book_id: string; title: string; publisher_id: string | null; publisher?: { publisher_id: string; name: string } | null } | null
     user?: { user_id: string; username: string; email: string } | null
-    author?: { author_id: string; name: string } | null
+    author?: { author_id: string; name: string, id: string } | null
 }): BorrowedBook {
     return {
         id: bb.id,
@@ -290,7 +290,7 @@ function mapBorrowedBook(bb: {
         user_id: bb.user?.user_id ?? null,
         username: bb.user?.username ?? null,
         email: bb.user?.email ?? null,
-        author_id: bb.author?.author_id ?? null,
+        author_id: bb.author?.id ?? null,
         author_name: bb.author?.name ?? null,
         publisher_id: bb.book?.publisher?.publisher_id ?? null,
         publisher_name: bb.book?.publisher?.name ?? null,
