@@ -39,7 +39,7 @@ export async function proxy(request: NextRequest) {
     const effectiveUser = user || (refreshPayload ? { isAdmin: refreshPayload.isAdmin || false } : null)
 
     // Protect routes that require authentication
-    const protectedPaths = ["/my-books", "/books", "/analytics", "/authors"]
+    const protectedPaths = ["/my-books", "/books", "/analytics", "/authors", "/ebooks"]
     const adminPaths = ["/admin", "/admin/details/users", "/admin/details/users/[id]"]
     const redirectPaths = ["/admin/details"]
     const isProtectedPath = protectedPaths.some((path) => request.nextUrl.pathname.startsWith(path))
