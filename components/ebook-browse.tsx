@@ -17,6 +17,13 @@ import {
 } from "@/components/ui/command"
 import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover"
 import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select"
+import {
   Pagination,
   PaginationContent,
   PaginationItem,
@@ -25,7 +32,7 @@ import {
 } from "@/components/ui/pagination"
 import { EbookPreviewModal } from "@/components/ebook-preview-modal"
 import { cn } from "@/lib/utils"
-import { filterAndPaginate, uniqueAuthors } from "@/lib/ebooks/browse"
+import { filterAndPaginate, uniqueAuthors, uniqueYears } from "@/lib/ebooks/browse"
 import type { Ebook } from "@/lib/ebooks/types"
 
 const PAGE_SIZE = 24
@@ -38,18 +45,25 @@ export function EbookBrowse({ ebooks }: { ebooks: Ebook[] }) {
   const [query, setQuery] = useState("")
   const [author, setAuthor] = useState("")
   const [authorOpen, setAuthorOpen] = useState(false)
+  const [year, setYear] = useState<number | null>(null)
   const [page, setPage] = useState(1)
 
   const authors = useMemo(() => uniqueAuthors(ebooks), [ebooks])
+  const years = useMemo(() => uniqueYears(ebooks), [ebooks])
 
   const result = useMemo(
-    () => filterAndPaginate(ebooks, query, author, page, PAGE_SIZE),
-    [ebooks, query, author, page],
+    () => filterAndPaginate(ebooks, query, author, year, page, PAGE_SIZE),
+    [ebooks, query, author, year, page],
   )
 
   const selectAuthor = useCallback((value: string) => {
     setAuthor(value)
     setAuthorOpen(false)
+    setPage(1)
+  }, [])
+
+  const selectYear = useCallback((value: string) => {
+    setYear(value === "all" ? null : Number(value))
     setPage(1)
   }, [])
 
@@ -135,6 +149,20 @@ export function EbookBrowse({ ebooks }: { ebooks: Ebook[] }) {
             </Button>
           )}
         </div>
+
+        <Select value={year === null ? "all" : String(year)} onValueChange={selectYear}>
+          <SelectTrigger className="w-full sm:w-36" aria-label="Filter by year">
+            <SelectValue placeholder="All years" />
+          </SelectTrigger>
+          <SelectContent>
+            <SelectItem value="all">All years</SelectItem>
+            {years.map((y) => (
+              <SelectItem key={y} value={String(y)}>
+                {y}
+              </SelectItem>
+            ))}
+          </SelectContent>
+        </Select>
       </div>
 
       <p className="text-sm text-muted-foreground mb-4">

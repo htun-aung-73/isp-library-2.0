@@ -20,12 +20,24 @@ export function uniqueAuthors(ebooks: Ebook[]): string[] {
   return Array.from(seen.values()).sort((a, b) => a.localeCompare(b))
 }
 
+// Distinct publication years present in the catalog, newest first.
+// Used to populate the year filter dropdown.
+export function uniqueYears(ebooks: Ebook[]): number[] {
+  const seen = new Set<number>()
+  for (const e of ebooks) {
+    if (e.year != null) seen.add(e.year)
+  }
+  return Array.from(seen).sort((a, b) => b - a)
+}
+
 // Case-insensitive search over title/author/publisher, optional exact-author
-// filter, then slice to a page. Clamps page into [1, totalPages].
+// and exact-year filters, then slice to a page. Clamps page into [1, totalPages].
+// `author === ""` and `year === null` mean "no filter".
 export function filterAndPaginate(
   ebooks: Ebook[],
   query: string,
   author: string,
+  year: number | null,
   page: number,
   pageSize: number,
 ): BrowseResult {
@@ -34,6 +46,7 @@ export function filterAndPaginate(
 
   const filtered = ebooks.filter((e) => {
     if (a && e.author?.trim().toLowerCase() !== a) return false
+    if (year != null && e.year !== year) return false
     if (!q) return true
     return [e.title, e.author, e.publisher]
       .filter((f): f is string => Boolean(f))
