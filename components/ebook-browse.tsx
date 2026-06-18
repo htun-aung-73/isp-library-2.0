@@ -182,9 +182,9 @@ export function EbookBrowse({ ebooks }: { ebooks: Ebook[] }) {
               <h3 className="font-medium line-clamp-2">{ebook.title}</h3>
               {ebook.author && <p className="text-sm text-muted-foreground">{ebook.author}</p>}
               <div className="mt-auto flex flex-wrap gap-2 pt-2 text-xs">
-                {ebook.publisher && <Badge variant="secondary">{ebook.publisher}</Badge>}
+                {ebook.publisher && <Badge variant="default">{ebook.publisher}</Badge>}
                 {ebook.year && <Badge variant="outline">{ebook.year}</Badge>}
-                {!ebook.available && <Badge variant="destructive">No preview</Badge>}
+                {!ebook.available && <Badge variant="secondary">No preview</Badge>}
               </div>
             </Card>
           ))}
