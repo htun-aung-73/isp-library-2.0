@@ -3,7 +3,7 @@
 import { useState } from "react"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
-import { BookOpen, Search, BarChart3, Library, Shield, Users, Menu } from "lucide-react"
+import { BookOpen, BookMarked, Search, BarChart3, Library, Shield, Users, Menu } from "lucide-react"
 
 import { Button } from "@/components/ui/button"
 import {
@@ -29,6 +29,13 @@ export function MobileNav() {
       label: "Browse Books",
       icon: Search,
       active: pathname === "/books",
+      show: true,
+    },
+    {
+      href: "/ebooks",
+      label: "Ebooks",
+      icon: BookMarked,
+      active: pathname === "/ebooks",
       show: true,
     },
     {

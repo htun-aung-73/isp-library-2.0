@@ -1,6 +1,6 @@
 "use client"
 import Link from "next/link"
-import { BookOpen, Search, BarChart3, Library, Shield, Users } from "lucide-react"
+import { BookOpen, BookMarked, Search, BarChart3, Library, Shield, Users } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { UserNav } from "@/components/user-nav"
 import { MobileNav } from "@/components/mobile-nav"
@@ -33,6 +33,13 @@ export function Header() {
             >
               <Search className="h-4 w-4" />
               Browse Books
+            </Link>
+            <Link
+              href="/ebooks"
+              className="flex items-center shrink-0 gap-2 text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
+            >
+              <BookMarked className="h-4 w-4" />
+              Ebooks
             </Link>
             <Link
               href="/authors"
