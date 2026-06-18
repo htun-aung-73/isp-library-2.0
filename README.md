@@ -16,9 +16,10 @@ A modern, full-stack Library Management System designed for the ISP Community. T
 - **Frontend**: [Next.js](https://nextjs.org/) (App Router), [React](https://react.dev/), [Tailwind CSS](https://tailwindcss.com/)
 - **UI Components**: [Shadcn UI](https://ui.shadcn.com/), [Lucide React](https://lucide.dev/), [Ag-Grid](https://www.ag-grid.com/)
 - **State Management**: [Redux Toolkit](https://redux-toolkit.js.org/) & RTK Query
-- **Backend/Database**: [Baserow](https://baserow.io/) (Headless DB)
+- **Database**: [PostgreSQL](https://www.postgresql.org/) via [Prisma ORM v7](https://www.prisma.io/) (`@prisma/adapter-pg`)
+- **Auth**: Custom dual JWT (access + refresh) via [`jose`](https://github.com/panva/jose) & [Bcryptjs](https://github.com/dcodeIO/bcrypt.js) password hashing
+- **Email**: [Mailchimp Transactional](https://mailchimp.com/developer/transactional/) (account verification & password reset)
 - **Visualization**: [Recharts](https://recharts.org/)
-- **Security**: [Bcryptjs](https://github.com/dcodeIO/bcrypt.js) for password hashing
 
 ## Sample Views
 
@@ -35,9 +36,9 @@ A modern, full-stack Library Management System designed for the ISP Community. T
 ![Admin Detail Page](/public/10.png)
 ![Admin Detail Page](/public/11.png)
 
-## 🚀 Key Functions & API Integration
+## 🚀 Key Functions & Data Access Layer
 
-The system communicates with clinical precision through its Baserow integration layer:
+All database access goes through a Prisma-backed Data Access Layer in [`lib/db/client.ts`](lib/db/client.ts):
 
 - **Inventory Management**: `getBooks()`, `getBook(id)` - Fetch and display the entire library catalog or specific titles.
 - **Author Relations**: `getAuthors()`, `getBooksByAuthorId(id)` - Map complex relationships between creators and their works.
@@ -51,19 +52,32 @@ The system communicates with clinical precision through its Baserow integration 
 
 - Node.js (Latest Stable)
 - pnpm / npm / yarn
-- A Baserow account and API token
+- A PostgreSQL database
+- A Mailchimp Transactional API key (for verification & password-reset emails)
 
 ### Environment Variables
 
-Create a `.env.local` file in the root directory and add the following:
+Create a `.env` file in the root directory (see `.env.example`) and add the following:
 
 ```env
-NEXT_PUBLIC_BASEROW_API_URL=https://api.baserow.io
-NEXT_PUBLIC_BASEROW_API_TOKEN=your_token_here
-NEXT_PUBLIC_BASEROW_TABLE_BOOKS=your_table_id
-NEXT_PUBLIC_BASEROW_TABLE_AUTHORS=your_table_id
-NEXT_PUBLIC_BASEROW_TABLE_USERS=your_table_id
-NEXT_PUBLIC_BASEROW_TABLE_BORROW_BOOKS=your_table_id
+# Database
+DATABASE_URL=postgresql://user:password@host:5432/dbname
+
+# Auth (JWT signing secrets)
+JWT_ACCESS_SECRET=your_access_secret
+JWT_REFRESH_SECRET=your_refresh_secret
+JWT_RESET_SECRET=your_reset_secret
+
+# Email (Mailchimp Transactional)
+MAILCHIMP_API_KEY=your_mailchimp_transactional_api_key
+MAILCHIMP_FROM_EMAIL=hello@yourdomain.com
+MAILCHIMP_FROM_NAME=ISP Library
+
+# App
+NEXT_PUBLIC_APP_NAME=ISP Library
+NEXT_PUBLIC_APP_DESCRIPTION=Library Management System
+NEXT_PUBLIC_APP_URL=http://localhost:3000
+MAX_BORROWS_PER_PERIOD=5
 ```
 
 ### Installation
@@ -79,7 +93,14 @@ NEXT_PUBLIC_BASEROW_TABLE_BORROW_BOOKS=your_table_id
    pnpm install
    ```
 
-3. Run the development server:
+3. Set up the database (generate client, run migrations, seed data):
+   ```bash
+   pnpm db:migrate
+   pnpm db:seed
+   pnpm db:admin-seed   # creates an admin user
+   ```
+
+4. Run the development server:
    ```bash
    pnpm dev
    ```

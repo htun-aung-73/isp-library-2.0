@@ -106,8 +106,8 @@ The auth system uses a **dual JWT token** strategy:
 
 | Token | Lifetime | Storage | Purpose |
 |---|---|---|---|
-| **Access Token** | 30 seconds | Redux store (memory) | Authorize API requests via `Bearer` header |
-| **Refresh Token** | 30 minutes | `httpOnly` cookie + DB column | Silently rotate access tokens |
+| **Access Token** | 15 minutes | Redux store (memory) | Authorize API requests via `Bearer` header |
+| **Refresh Token** | 7 days | `httpOnly` cookie + DB column | Silently rotate access tokens |
 
 ### Flow
 1. **Login/Signup** → server generates both tokens, stores refresh in DB & cookie, returns access token to client
@@ -124,7 +124,7 @@ The auth system uses a **dual JWT token** strategy:
 
 ---
 
-## Data Access Layer ([client.ts](file:///Users/macbookair/Documents/web/library-management-system/lib/db/client.ts))
+## Data Access Layer ([client.ts](lib/db/client.ts))
 
 A clean DAL that wraps all Prisma queries and maps DB models to frontend types:
 
@@ -135,7 +135,7 @@ A clean DAL that wraps all Prisma queries and maps DB models to frontend types:
 
 ---
 
-## RTK Query API ([libraryApi.ts](file:///Users/macbookair/Documents/web/library-management-system/lib/redux/services/libraryApi.ts))
+## RTK Query API ([libraryApi.ts](lib/redux/services/libraryApi.ts))
 
 17 endpoints organized by domain:
 
@@ -198,7 +198,7 @@ Cache tags: `Book`, `BorrowedBook`, `User` — automatic invalidation on mutatio
 
 ## Key Design Decisions
 
-1. **Short-lived access tokens (30s)** with automatic silent refresh — maximizes security at the cost of more frequent refresh calls
+1. **Short-lived access tokens (15m)** with automatic silent refresh — maximizes security at the cost of more frequent refresh calls
 2. **Refresh deduplication** via a module-level promise in `baseQueryWithReauth` — prevents race conditions with concurrent 401s
 3. **Server-side session hydration** — `getSession()` in the root layout reads the refresh token cookie for SSR, dispatched to Redux via `ReduxProvider`
 4. **Dual ID pattern** — each model has both an internal `id` (PK) and a public-facing `*_id` (UUID), with the DAL mapping between them
