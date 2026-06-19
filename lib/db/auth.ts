@@ -22,6 +22,12 @@ export const REFRESH_TOKEN_COOKIE = "refresh_token"
 // 15 minutes for access token, 7 days for refresh token
 const REFRESH_MAX_AGE = 60 * 60 * 24 * 7
 
+function getBaseUrl(): string {
+    return process.env.NODE_ENV === "production"
+        ? process.env.NEXT_PUBLIC_APP_URL!
+        : "https://unnational-impermeably-ilse.ngrok-free.dev" // ← real URL for email testing
+}
+
 async function verifyPassword(inputPassword: string, storedPassword: string): Promise<boolean> {
     return await bcrypt.compare(inputPassword, storedPassword)
 }
@@ -222,10 +228,7 @@ export async function signup(
 
         // Mail Confirmation
         const confirmationToken = await generateAccountConfirmToken(user.id)
-        const BASE_URL = process.env.NODE_ENV === "production"
-            ? process.env.NEXT_PUBLIC_APP_URL
-            : "https://unnational-impermeably-ilse.ngrok-free.dev" // ← real URL for email testing
-        const confirmationUrl = `${BASE_URL}/auth/verify-account?token=${confirmationToken}`
+        const confirmationUrl = `${getBaseUrl()}/auth/verify-account?token=${confirmationToken}`
 
         // console.log("confirmationUrl", confirmationUrl);
 
@@ -258,10 +261,7 @@ export async function forgotPassword(
         }
 
         const resetToken = await generateResetToken(user.id)
-        const BASE_URL = process.env.NODE_ENV === "production"
-            ? process.env.NEXT_PUBLIC_APP_URL
-            : "https://unnational-impermeably-ilse.ngrok-free.dev" // ← real URL for email testing
-        const resetUrl = `${BASE_URL}/auth/reset-password?token=${resetToken}`
+        const resetUrl = `${getBaseUrl()}/auth/reset-password?token=${resetToken}`
 
         const emailResult = await sendPasswordResetEmail(user.email, resetUrl)
 
@@ -273,6 +273,38 @@ export async function forgotPassword(
         return { success: true }
     } catch (error) {
         console.error("Forgot password error:", error)
+        return { success: false, error: "An error occurred. Please try again." }
+    }
+}
+
+/**
+ * Resend account confirmation email — only for existing, unverified users.
+ * Always returns success when the user is absent or already verified,
+ * to avoid leaking account existence/state.
+ */
+export async function resendConfirmation(
+    email: string
+): Promise<{ success: boolean; error?: string }> {
+    try {
+        const user = await getUserByEmail(email)
+
+        // Do not reveal whether the account exists or is already verified
+        if (!user || user.is_verified) {
+            return { success: true }
+        }
+
+        const confirmationToken = await generateAccountConfirmToken(user.id)
+        const confirmationUrl = `${getBaseUrl()}/auth/verify-account?token=${confirmationToken}`
+
+        const mailConfirm = await sendConfirmationMail(user.email, confirmationUrl)
+        if (!mailConfirm.success) {
+            console.error("Failed to resend confirmation email:", mailConfirm.error)
+            return { success: false, error: "Failed to send confirmation email. Please try again." }
+        }
+
+        return { success: true }
+    } catch (error) {
+        console.error("Resend confirmation error:", error)
         return { success: false, error: "An error occurred. Please try again." }
     }
 }
