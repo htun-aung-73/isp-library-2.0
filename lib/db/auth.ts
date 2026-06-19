@@ -45,6 +45,14 @@ export async function login(
             return { success: false, error: "Invalid password" }
         }
 
+        if (!user.is_verified) {
+            return {
+                success: false,
+                error: "Please confirm your email before logging in.",
+                needsVerification: true,
+            }
+        }
+
         const sessionUser: SessionUser = {
             id: user.id,
             user_id: user.user_id,
