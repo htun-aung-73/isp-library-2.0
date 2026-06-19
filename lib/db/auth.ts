@@ -23,9 +23,14 @@ export const REFRESH_TOKEN_COOKIE = "refresh_token"
 const REFRESH_MAX_AGE = 60 * 60 * 24 * 7
 
 function getBaseUrl(): string {
-    return process.env.NODE_ENV === "production"
-        ? process.env.NEXT_PUBLIC_APP_URL!
-        : "https://unnational-impermeably-ilse.ngrok-free.dev" // ← real URL for email testing
+    if (process.env.NODE_ENV === "production") {
+        const url = process.env.NEXT_PUBLIC_APP_URL
+        if (!url) {
+            throw new Error("NEXT_PUBLIC_APP_URL must be set in production")
+        }
+        return url
+    }
+    return "https://unnational-impermeably-ilse.ngrok-free.dev" // ← real URL for email testing
 }
 
 async function verifyPassword(inputPassword: string, storedPassword: string): Promise<boolean> {

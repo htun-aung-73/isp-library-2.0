@@ -92,8 +92,9 @@ export default function LoginForm() {
                 setNeedsVerification(true)
                 setUnverifiedEmail(values.email)
             }
-            toast.error(error.data.error)
-            setError(error.data.error)
+            const message = error?.data?.error ?? "Login failed. Please try again."
+            toast.error(message)
+            setError(message)
         })
 
     }
