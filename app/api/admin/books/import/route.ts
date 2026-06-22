@@ -77,6 +77,6 @@ export async function POST(request: Request) {
         })
     } catch (error) {
         console.error("Import Books API error:", error)
-        return NextResponse.json({ error: error?.toString() }, { status: 500 })
+        return NextResponse.json({ success: false, error: error?.toString() }, { status: 500 })
     }
 }

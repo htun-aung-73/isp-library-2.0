@@ -12,6 +12,6 @@ export async function GET() {
         return NextResponse.json({ success: true, data })
     } catch (error) {
         console.error("Get Publishers API error:", error)
-        return NextResponse.json({ error: error?.toString() }, { status: 500 })
+        return NextResponse.json({ success: false, error: error?.toString() }, { status: 500 })
     }
 }

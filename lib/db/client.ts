@@ -484,61 +484,65 @@ export async function getPublishers(): Promise<Publisher[]> {
 
 // ─── Book writes ────────────────────────────────────────
 
-async function findOrCreateAuthorId(name: string): Promise<string> {
-    const existing = await prisma.author.findFirst({ where: { name } })
+type TxClient = Parameters<Parameters<typeof prisma.$transaction>[0]>[0]
+
+async function findOrCreateAuthorId(tx: TxClient, name: string): Promise<string> {
+    const existing = await tx.author.findFirst({ where: { name } })
     if (existing) return existing.id
-    const created = await prisma.author.create({ data: { name } })
+    const created = await tx.author.create({ data: { name } })
     return created.id
 }
 
-async function findOrCreatePublisherId(name: string): Promise<string> {
-    const existing = await prisma.publisher.findFirst({ where: { name } })
+async function findOrCreatePublisherId(tx: TxClient, name: string): Promise<string> {
+    const existing = await tx.publisher.findFirst({ where: { name } })
     if (existing) return existing.id
-    const created = await prisma.publisher.create({ data: { name } })
+    const created = await tx.publisher.create({ data: { name } })
     return created.id
 }
 
 export async function createBook(data: BookCreateInput): Promise<Book | null> {
     try {
-        const authorName = data.authorName?.trim()
-        const publisherName = data.publisherName?.trim()
-        const author_id = authorName ? await findOrCreateAuthorId(authorName) : null
-        const publisher_id = publisherName ? await findOrCreatePublisherId(publisherName) : null
+        return await prisma.$transaction(async (tx) => {
+            const authorName = data.authorName?.trim()
+            const publisherName = data.publisherName?.trim()
+            const author_id = authorName ? await findOrCreateAuthorId(tx, authorName) : null
+            const publisher_id = publisherName ? await findOrCreatePublisherId(tx, publisherName) : null
 
-        const b = await prisma.book.create({
-            data: {
-                title: data.title,
-                language: data.language ?? null,
-                place_of_publication: data.place_of_publication ?? null,
-                published_year: data.published_year ?? null,
-                edition: data.edition ?? null,
-                price: data.price ?? null,
-                class_number: data.class_number ?? null,
-                source: data.source ?? null,
-                notes: data.notes ?? null,
-                author_id,
-                publisher_id,
-            },
-            include: { author: true, publisher: true },
+            const b = await tx.book.create({
+                data: {
+                    title: data.title,
+                    language: data.language ?? null,
+                    place_of_publication: data.place_of_publication ?? null,
+                    published_year: data.published_year ?? null,
+                    edition: data.edition ?? null,
+                    price: data.price ?? null,
+                    class_number: data.class_number ?? null,
+                    source: data.source ?? null,
+                    notes: data.notes ?? null,
+                    author_id,
+                    publisher_id,
+                },
+                include: { author: true, publisher: true },
+            })
+            return {
+                id: b.id,
+                book_id: b.book_id,
+                title: b.title,
+                author_name: b.author?.name ?? null,
+                author_id: b.author_id ?? null,
+                language: b.language,
+                publisher_name: b.publisher?.name ?? null,
+                publisher_id: b.publisher_id ?? null,
+                place_of_publication: b.place_of_publication,
+                published_year: b.published_year,
+                edition: b.edition,
+                price: b.price,
+                class_number: b.class_number,
+                source: b.source,
+                notes: b.notes,
+                created_at: b.created_at.toISOString(),
+            }
         })
-        return {
-            id: b.id,
-            book_id: b.book_id,
-            title: b.title,
-            author_name: b.author?.name ?? null,
-            author_id: b.author_id ?? null,
-            language: b.language,
-            publisher_name: b.publisher?.name ?? null,
-            publisher_id: b.publisher_id ?? null,
-            place_of_publication: b.place_of_publication,
-            published_year: b.published_year,
-            edition: b.edition,
-            price: b.price,
-            class_number: b.class_number,
-            source: b.source,
-            notes: b.notes,
-            created_at: b.created_at.toISOString(),
-        }
     } catch (error) {
         console.error("createBook error:", error)
         return null
