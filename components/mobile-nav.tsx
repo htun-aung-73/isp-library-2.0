@@ -3,7 +3,7 @@
 import { useState } from "react"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
-import { BookOpen, BookMarked, Search, BarChart3, Library, Shield, Users, Menu } from "lucide-react"
+import { BookOpen, BookMarked, Search, BarChart3, Library, Shield, Users, Menu, Plus } from "lucide-react"
 
 import { Button } from "@/components/ui/button"
 import {
@@ -64,6 +64,13 @@ export function MobileNav() {
       label: "Admin",
       icon: Shield,
       active: pathname === "/admin" || pathname.startsWith("/admin/"),
+      show: !!isAdmin,
+    },
+    {
+      href: "/admin/books/new",
+      label: "Add Book",
+      icon: Plus,
+      active: pathname === "/admin/books/new",
       show: !!isAdmin,
     },
   ]
