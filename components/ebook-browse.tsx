@@ -171,7 +171,7 @@ export function EbookBrowse({ ebooks }: { ebooks: Ebook[] }) {
       {result.items.length === 0 ? (
         <p className="text-muted-foreground py-12 text-center">No ebooks match your search.</p>
       ) : (
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {result.items.map((ebook) => (
             <Card
               key={ebook.id}
@@ -181,7 +181,7 @@ export function EbookBrowse({ ebooks }: { ebooks: Ebook[] }) {
               {/* Visual sidebar */}
               <div className="w-2 bg-primary/20 group-hover:bg-primary transition-colors shrink-0" />
 
-              <div className="flex-1 flex flex-row items-center p-6 gap-6">
+              <div className="flex-1 flex flex-row items-center p-4 gap-6">
                 <div className="flex-1 min-w-0 space-y-3">
                   <div className="space-y-1">
                     <div className="flex items-center gap-2 text-primary font-bold text-[10px] uppercase tracking-widest opacity-80">

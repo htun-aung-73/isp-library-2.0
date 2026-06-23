@@ -25,7 +25,7 @@ export function Header() {
         </div>
 
         {/* Center: Desktop Nav */}
-        <div className="hidden md:flex flex-1 justify-center">
+        <div className="hidden lg:flex flex-1 justify-center">
           <nav className="flex items-center gap-6">
             <Link
               href="/books"
